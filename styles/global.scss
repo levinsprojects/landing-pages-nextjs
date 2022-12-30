@@ -664,6 +664,7 @@ p.text-sm {
 }
 
 .st-loop-tags {
+    --duration:24s;
     animation-name: loop;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -685,6 +686,7 @@ p.text-sm {
 }
 
 .st-loop-tags-reverse {
+    --duration:24s;
     animation-name: loop-reverse;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
