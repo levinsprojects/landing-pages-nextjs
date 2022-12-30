@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from 'next/image';
 import SiteLogo from "../../public/SiteLogo.svg";
 import Link from "next/link";
@@ -8,8 +8,21 @@ type HeaderProps = {
 }
 
 const Header: React.FC<HeaderProps> = () => {
+
+    const [isStickyHeaderMode,setStickyHeaderMode] = useState(false);
+
+    useEffect(()=>{
+        const checkAndSetHeaderMode = () => {
+            setStickyHeaderMode( ((window?.scrollY||0)>400) );
+        };
+        window.addEventListener('scroll', checkAndSetHeaderMode,true);
+        return ()=>{
+            window.removeEventListener('scroll', checkAndSetHeaderMode, true);
+        };
+    },[]);
+
     return (
-        <header className="z-50 top-0 left-0 w-full absolute ">
+        <header className={`${!isStickyHeaderMode ? "z-50 top-0 left-0 w-full absolute" :"z-50 top-0 left-0 w-full bg-white fixed border-b border-slate-100 "}`}>
             <div className="container">
                 <div className="flex justify-between items-center relative md:space-x-10 py-4 md:py-6 text-sm font-semibold">
                     <div className="flex justify-start">
