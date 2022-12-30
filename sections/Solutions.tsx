@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Solutions = () => {
     return (<section className="bg-white py-16 md:py-24 border-b border-slate-100">
         <div className="container">
@@ -8,7 +10,7 @@ const Solutions = () => {
                     from small websites to large ERP systems. We have a team of experienced developers who can
                     create customised solutions to meet your specific needs.
                 </p>
-                <a href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></a>
+                <Link href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
             </div>
             <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                 <div>

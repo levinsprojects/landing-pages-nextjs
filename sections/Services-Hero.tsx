@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ServicesHero = ({data}:{data:{name:string,heading:string,desc:string}}) => {
     return (
         <section className="border-b border-slate-100 overflow-hidden">
@@ -27,8 +29,8 @@ const ServicesHero = ({data}:{data:{name:string,heading:string,desc:string}}) =>
                         <h1 className="font-semibold text-blue-600">{data.name}</h1>
                         <p className="font-extrabold text-3xl md:text-4xl text-slate-900 tracking-tight md:leading-[3.5rem] mt-2">{data.heading}</p>
                         <p className="mt-5">{data.desc}</p>
-                        <div className="mt-8 m-auto"><a href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700">Contact Us Now
-                            <span className="opacity-75 ml-2">→</span></a>
+                        <div className="mt-8 m-auto"><Link href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700">Contact Us Now
+                            <span className="opacity-75 ml-2">→</span></Link>
                         </div>
                     </div>
                 </div>

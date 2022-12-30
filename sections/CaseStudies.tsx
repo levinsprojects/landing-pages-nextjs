@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CaseStudies = () => {
     return (
         <section className="bg-white py-16 md:py-24 border-b ">
@@ -8,7 +10,7 @@ const CaseStudies = () => {
                         provides an overview of the project, the challenges we faced, and the solutions we
                         delivered. Our case studies show that we are a reliable &amp; experienced <strong className="font-normal">software development company</strong> that can provide custom software solutions that meet your specific needs.
                     </p>
-                    <a href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-800">Start Discussion Now <span className="opacity-90 ml-1">→</span></a>
+                    <Link href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-800">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
                 </div>
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
                     <div className="bg-triangles rounded-xl bg-center bg-cover">
@@ -34,7 +36,7 @@ const CaseStudies = () => {
                                 <div><span className="block text-2xl font-extrabold text-slate-900">60+</span> <span>Quality Leads /month</span></div>
                                 <div><span className="block text-2xl font-extrabold text-slate-900">500%</span> <span>Improved Pagespeed</span></div>
                             </div>
-                            <a href="/case-studies" className="font-semibold text-sm text-blue-600 hover:text-blue-800 mt-auto">Read Other Case Studies <span className="opacity-90 ml-1">→</span></a>
+                            <Link href="/case-studies" className="font-semibold text-sm text-blue-600 hover:text-blue-800 mt-auto">Read Other Case Studies <span className="opacity-90 ml-1">→</span></Link>
                         </div>
                     </div>
                     <div className="bg-triangles rounded-xl bg-center bg-cover">
@@ -63,7 +65,7 @@ const CaseStudies = () => {
                                     <div><span className="block text-2xl font-extrabold text-slate-900">500+</span> <span>Pages Redesigned</span></div>
                                     <div><span className="block text-2xl font-extrabold text-slate-900">2X</span> <span>Faster Website Speed</span></div>
                                 </div>
-                                <a href="/case-studies" className="font-semibold text-sm text-blue-600 hover:text-blue-800">Read Other Case Studies <span className="opacity-90 ml-1">→</span></a>
+                                <Link href="/case-studies" className="font-semibold text-sm text-blue-600 hover:text-blue-800">Read Other Case Studies <span className="opacity-90 ml-1">→</span></Link>
                             </div>
                         </div>
                     </div>

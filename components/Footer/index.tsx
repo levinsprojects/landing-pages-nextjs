@@ -33,63 +33,63 @@ const Footer = (props:{}) => {
                     <div>
                         <h6 className="text-white font-semibold tracking-wide mb-3">Services</h6>
                         <ul>
-                            <li><a href="/web-development" className="mb-2 inline-block hover:text-white">Web Development</a></li>
-                            <li><a href="/ui-ux-design" className="mb-2 inline-block hover:text-white">UI/UX Design</a></li>
-                            <li><a href="/software-development" className="mb-2 inline-block hover:text-white">Custom Software Development</a></li>
-                            <li><a href="/mobile-app-development" className="mb-2 inline-block hover:text-white">Mobile App
-                                Development</a>
+                            <li><Link href="/web-development" className="mb-2 inline-block hover:text-white">Web Development</Link></li>
+                            <li><Link href="/ui-ux-design" className="mb-2 inline-block hover:text-white">UI/UX Design</Link></li>
+                            <li><Link href="/software-development" className="mb-2 inline-block hover:text-white">Custom Software Development</Link></li>
+                            <li><Link href="/mobile-app-development" className="mb-2 inline-block hover:text-white">Mobile App
+                                Development</Link>
                             </li>
-                            <li><a href="/strategy-consulting" className="mb-2 inline-block hover:text-white">Strategy &amp;
-                                Consulting</a>
+                            <li><Link href="/strategy-consulting" className="mb-2 inline-block hover:text-white">Strategy &amp;
+                                Consulting</Link>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <h6 className="text-white font-semibold tracking-wide mb-3">Technologies</h6>
                         <ul>
-                            <li><a href="/programming-languages" className="mb-2 inline-block hover:text-white">Programming Languages</a></li>
-                            <li><a href="/platforms-frameworks" className="mb-2 inline-block hover:text-white">Platforms &amp;
-                                Frameworks</a>
+                            <li><Link href="/programming-languages" className="mb-2 inline-block hover:text-white">Programming Languages</Link></li>
+                            <li><Link href="/platforms-frameworks" className="mb-2 inline-block hover:text-white">Platforms &amp;
+                                Frameworks</Link>
                             </li>
-                            <li><a href="/trending-technologies" className="mb-2 inline-block hover:text-white">Trending
-                                Technologies</a>
+                            <li><Link href="/trending-technologies" className="mb-2 inline-block hover:text-white">Trending
+                                Technologies</Link>
                             </li>
-                            <li><a href="/programming-languages#nodejs" className="mb-2 inline-block hover:text-white">Node.js
-                                Development</a>
+                            <li><Link href="/programming-languages#nodejs" className="mb-2 inline-block hover:text-white">Node.js
+                                Development</Link>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <h6 className="text-white font-semibold tracking-wide mb-3">Trending Technologies</h6>
                         <ul>
-                            <li><a href="/trending-technologies#artificial-intelligence-AI" className="mb-2 inline-block hover:text-white">Artificial Intelligence (AI)</a></li>
-                            <li><a href="/trending-technologies#machine-learning-ML" className="mb-2 inline-block hover:text-white">Machine
-                                Learning (ML)</a>
+                            <li><Link href="/trending-technologies#artificial-intelligence-AI" className="mb-2 inline-block hover:text-white">Artificial Intelligence (AI)</Link></li>
+                            <li><Link href="/trending-technologies#machine-learning-ML" className="mb-2 inline-block hover:text-white">Machine
+                                Learning (ML)</Link>
                             </li>
-                            <li><a href="/trending-technologies#IoT" className="mb-2 inline-block hover:text-white">Internet of
-                                Things (IoT)</a>
+                            <li><Link href="/trending-technologies#IoT" className="mb-2 inline-block hover:text-white">Internet of
+                                Things (IoT)</Link>
                             </li>
-                            <li><a href="/trending-technologies#jamstack" className="mb-2 inline-block hover:text-white">Jamstack
-                                Development</a>
+                            <li><Link href="/trending-technologies#jamstack" className="mb-2 inline-block hover:text-white">Jamstack
+                                Development</Link>
                             </li>
-                            <li><a href="/trending-technologies#DevOps" className="mb-2 inline-block hover:text-white">DevOps
-                                Consulting</a>
+                            <li><Link href="/trending-technologies#DevOps" className="mb-2 inline-block hover:text-white">DevOps
+                                Consulting</Link>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <h6 className="text-white font-semibold tracking-wide mb-3">About Us</h6>
                         <ul>
-                            <li><a href="/about-us" className="mb-2 inline-block hover:text-white">Overview</a></li>
-                            <li><a href="/about-us/testimonials" className="mb-2 inline-block hover:text-white">Awards &amp;
-                                Recognitions</a>
+                            <li><Link href="/about-us" className="mb-2 inline-block hover:text-white">Overview</Link></li>
+                            <li><Link href="/about-us/testimonials" className="mb-2 inline-block hover:text-white">Awards &amp;
+                                Recognitions</Link>
                             </li>
-                            <li><a href="/about-us/awards-recognitions" className="mb-2 inline-block hover:text-white">Client
-                                Testimonials</a>
+                            <li><Link href="/about-us/awards-recognitions" className="mb-2 inline-block hover:text-white">Client
+                                Testimonials</Link>
                             </li>
-                            <li><a href="/about-us/our-story" className="mb-2 inline-block hover:text-white">Our Story</a></li>
-                            <li><a href="/about-us/social-responsibilities" className="mb-2 inline-block hover:text-white">Social
-                                Responsibilities</a>
+                            <li><Link href="/about-us/our-story" className="mb-2 inline-block hover:text-white">Our Story</Link></li>
+                            <li><Link href="/about-us/social-responsibilities" className="mb-2 inline-block hover:text-white">Social
+                                Responsibilities</Link>
                             </li>
                         </ul>
                     </div>
@@ -98,7 +98,7 @@ const Footer = (props:{}) => {
             <div className="container text-slate-400 flex flex-col md:flex-row md:space-x-2 space-y-3 justify-between items-center mb-4">
                 <div className="max-w-3xl">
                     <h6 className="text-white font-semibold mb-2">Subscribe to Our Newsletter</h6>
-                    <p className="text-sm">Subscribe to our mailing list to get regular news, updates, tips, etc. We don't share your
+                    <p className="text-sm">Subscribe to our mailing list to get regular news, updates, tips, etc. We don&#39;t share your
                         information with anyone.
                     </p>
                 </div>
@@ -109,13 +109,13 @@ const Footer = (props:{}) => {
             <div className="bg-slate-900">
                 <div className="container py-12 pb-16 md:pb-12 text-slate-400 text-sm">
                     <div className="md:flex md:items-center md:justify-between md:gap-8 w-full">
-                        <div className="text-center md:text-left "><span>© 2023 Demo site, All Rights Reserved.</span> <br className="sm:hidden" /> <a href="/privacy-policy" className="ml-8 hover:text-white">Privacy Policy</a> <a href="/website-copyright" className="ml-8 hover:text-white">Copyright</a> <a href="/sitemap" className="ml-8 hover:text-white">Sitemap</a></div>
+                        <div className="text-center md:text-left "><span>© 2023 Demo site, All Rights Reserved.</span> <br className="sm:hidden" /> <Link href="/privacy-policy" className="ml-8 hover:text-white">Privacy Policy</Link> <Link href="/website-copyright" className="ml-8 hover:text-white">Copyright</Link> <Link href="/sitemap" className="ml-8 hover:text-white">Sitemap</Link></div>
                         <div className="mt-4 md:mt-0">
                             <ul className="flex justify-between">
                                 {
                                     socialMedias.items.map((item,ind) => {
                                         return <li className="ml-5" key={ind}>
-                                            <a href={item.link} target="_blank" rel="noreferrer">{item.name}</a>
+                                            <Link href={item.link} target="_blank" rel="noreferrer">{item.name}</Link>
                                         </li>
                                     })
                                 }

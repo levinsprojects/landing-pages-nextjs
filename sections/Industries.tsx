@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import industries from "../public/industries.webp";
 
 const Industries = () => {
@@ -16,7 +17,7 @@ const Industries = () => {
                             solution to your industry. Fortunately, we've developed custom solutions for a variety
                             of industries - such as Information Technology, Finance, Education, Healthcare, etc.
                         </p>
-                        <a href="/contact-us" className="font-semibold text-blue-500 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></a>
+                        <Link href="/contact-us" className="font-semibold text-blue-500 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
                     </div>
                     <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                         <div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CardsGroup = () => {
     return (
         <section className="bg-white py-16 md:py-24">
@@ -75,8 +77,8 @@ const CardsGroup = () => {
                             helping clients generate new business from contact forms on their website.
                         </p>
                     </div>
-                    <div className="flex items-end justify-end"><a href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700">Contact Us Now
-                        <span className="opacity-75 ml-2">→</span></a>
+                    <div className="flex items-end justify-end"><Link href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700">Contact Us Now
+                        <span className="opacity-75 ml-2">→</span></Link>
                     </div>
                 </div>
             </div>
