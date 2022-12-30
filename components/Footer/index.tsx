@@ -98,7 +98,7 @@ const Footer = (props:{}) => {
             <div className="container text-slate-400 flex flex-col md:flex-row md:space-x-2 space-y-3 justify-between items-center mb-4">
                 <div className="max-w-3xl">
                     <h6 className="text-white font-semibold mb-2">Subscribe to Our Newsletter</h6>
-                    <p className="text-sm">Subscribe to our mailing list to get regular news, updates, tips, etc. We don't share your
+                    <p className="text-sm">Subscribe to our mailing list to get regular news, updates, tips, etc. We don&#39;t share your
                         information with anyone.
                     </p>
                 </div>
