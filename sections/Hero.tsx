@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
     return <section className="border-b border-slate-100 overflow-hidden">
         <div className="absolute inset-0 -z-10 mx-0 max-w-none overflow-hidden">
@@ -29,8 +31,8 @@ const Hero = () => {
                     <p className="mt-5">We understand that every business is unique and has its own specific needs. This is why
                         we offer custom software solutions that are tailor-made to fit your business perfectly.
                     </p>
-                    <div className="mt-8 flex gap-6"><a href="/services" className="inline-flex justify-center py-3 px-6 bg-white text-sm font-semibold text-slate-600 border border-slate-200 rounded-lg hover:bg-slate-100">Explore Our Services
-                        <span className="opacity-75 ml-2">→</span></a>
+                    <div className="mt-8 flex gap-6"><Link href="/services" className="inline-flex justify-center py-3 px-6 bg-white text-sm font-semibold text-slate-600 border border-slate-200 rounded-lg hover:bg-slate-100">Explore Our Services
+                        <span className="opacity-75 ml-2">→</span></Link>
                     </div>
                 </div>
                 <div className="md:py-16 md:w-1/2">
@@ -41,8 +43,8 @@ const Hero = () => {
                         <p className="mt-4">Our team can help you with everything from design &amp; development to marketing &amp; data
                             analytics.
                         </p>
-                        <a href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700 mt-6">Contact Us
-                            <span className="opacity-75 ml-2">→</span></a>
+                        <Link href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700 mt-6">Contact Us
+                            <span className="opacity-75 ml-2">→</span></Link>
                     </div>
                 </div>
             </div>

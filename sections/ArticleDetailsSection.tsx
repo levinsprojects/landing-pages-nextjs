@@ -16,8 +16,8 @@ const ArticleDetailsSection = ({ data }:{data: {articleName:string, headings:{he
                                     })
                                 }
                             </ul>
-                            <a href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-50 text-sm font-semibold text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white mt-10">Contact Us Now
-                                <span className="opacity-75 ml-2">→</span></a>
+                            <Link href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-50 text-sm font-semibold text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white mt-10">Contact Us Now
+                                <span className="opacity-75 ml-2">→</span></Link>
                         </div>
                     </div>
                     <div className="max-w-4xl col-span-4 prose prose-slate prose-h3:text-2xl prose-h3:font-bold" dangerouslySetInnerHTML={{__html:article}}></div>

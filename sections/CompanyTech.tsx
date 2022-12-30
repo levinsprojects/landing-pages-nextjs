@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CompanyTech = () => {
     return (
         <section className="overflow-hidden">
@@ -28,7 +30,7 @@ const CompanyTech = () => {
                                 problems.
                             </p>
                         </div>
-                        <a href="/about-us/our-story" className="font-semibold text-blue-600 hover:text-blue-800">Read Our Story <span className="opacity-90 ml-1">→</span></a>
+                        <Link href="/about-us/our-story" className="font-semibold text-blue-600 hover:text-blue-800">Read Our Story <span className="opacity-90 ml-1">→</span></Link>
                         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
                             <div><span className="text-3xl font-extrabold text-slate-900 tracking-tight block mb-1">500+</span> <span>Projects Delivered</span></div>
                             <div><span className="text-3xl font-extrabold text-slate-900 tracking-tight block mb-1">300+</span> <span>Customers Served</span></div>
@@ -42,8 +44,8 @@ const CompanyTech = () => {
                                 <h5 className="text-blue-600 font-semibold">Starting services at just</h5>
                                 <p className="mt-2 text-slate-900 tracking-tight leading-none"><span className="font-normal text-[2.5rem]">$</span><span className="font-extrabold text-[2.5rem]">22</span> <span className="ml-2 text-sm font-semibold align-top">per hour</span></p>
                             </div>
-                            <a href="/contact-us" className="inline-flex justify-center py-2 px-4 bg-slate-900 text-sm font-semibold text-white rounded-lg hover:bg-slate-700 mt-6 md:mt-0">Contact Us
-                                <span className="opacity-90 ml-2">→</span></a>
+                            <Link href="/contact-us" className="inline-flex justify-center py-2 px-4 bg-slate-900 text-sm font-semibold text-white rounded-lg hover:bg-slate-700 mt-6 md:mt-0">Contact Us
+                                <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                         <p className="mt-3 text-sm">We know how expensive it can be to find an experienced developer. That is why our
                             services start at just $22 per hour.

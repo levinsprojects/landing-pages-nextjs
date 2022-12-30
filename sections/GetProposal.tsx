@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const GetProposalSection = () => {
     return (
         <section className="cta-bg">
@@ -9,7 +11,7 @@ const GetProposalSection = () => {
                             <p className="mt-4">Start-ups, SME's &amp; Enterprises are all in need of a reliable <strong className="font-normal">software development partner</strong>. We'll work with you to ensure you find the right solution for your business and
                                 deliver it on time.
                             </p>
-                            <a href="/contact-us" className="mt-10 inline-flex bg-white px-3 py-3 rounded-xl text-slate-800 font-semibold text-sm shadow-lg shadow-blue-600 items-center hover:bg-slate-900 hover:text-white mix-blend-hard-light"><span className="inline-block px-3 mr-2">Get a Proposal</span></a>
+                            <Link href="/contact-us" className="mt-10 inline-flex bg-white px-3 py-3 rounded-xl text-slate-800 font-semibold text-sm shadow-lg shadow-blue-600 items-center hover:bg-slate-900 hover:text-white mix-blend-hard-light"><span className="inline-block px-3 mr-2">Get a Proposal</span></Link>
                         </div>
                     </div>
                 </div>

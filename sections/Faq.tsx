@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Faq = () => {
     return (
         <section className="bg-gradient-to-b from-slate-100/80 to-slate-100 py-16 md:py-24 pt-8 md:pt-8">
@@ -17,10 +19,10 @@ const Faq = () => {
                                 stage of the project. We have worked our partnerships of 2 months to 5 years to make companies
                                 competitive. Our about us page will show you who we are and what we believe in.
                             </dd>
-                            <dd className="mt-3">Do check our <a href="https://clutch.co/profile/salt-technologies?utm_source=salttechno.com&amp;utm_medium=referral&amp;utm_campaign=faqs" target="_blank" rel="noreferrer" className="text-blue-600 underline">clutch profile &amp; reviews</a> from our existing customers. Most of the feedback on our web development processes comes from
+                            <dd className="mt-3">Do check our <Link href="https://clutch.co/profile/salt-technologies?utm_source=salttechno.com&amp;utm_medium=referral&amp;utm_campaign=faqs" target="_blank" rel="noreferrer" className="text-blue-600 underline">clutch profile &amp; reviews</Link> from our existing customers. Most of the feedback on our web development processes comes from
                                 telephonic conversations executed by independent personnel from Clutch.
                             </dd>
-                            <dd className="mt-3">Then, you could <a href="/contact-us" className="text-blue-600 underline">contact us</a> &amp; schedule
+                            <dd className="mt-3">Then, you could <Link href="/contact-us" className="text-blue-600 underline">contact us</Link> &amp; schedule
                                 a free call about your requirements to see if we have a partnership in near future.
                             </dd>
                             <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer mt-8">What's your experience in working on digital transformation projects?
@@ -45,24 +47,24 @@ const Faq = () => {
                 <div>
                     <h6 className="font-semibold text-lg">Latest Articles:</h6>
                     <div className="bg-white rounded-xl shadow-lg flex flex-col md:flex-row items-stretch mt-4">
-                        <a href="/blog/WordPress-vs-Jamstack-for-business-website" className="inline-block shrink-0 w-full md:w-60 h-52 rounded-t-xl md:rounded-l-xl md:rounded-tr-none">
-                            </a>
+                        <Link href="/blog/WordPress-vs-Jamstack-for-business-website" className="inline-block shrink-0 w-full md:w-60 h-52 rounded-t-xl md:rounded-l-xl md:rounded-tr-none">
+                            </Link>
                         <div className="p-6">
                             <h4 className="font-semibold leading-normal mb-3">WordPress vs. Jamstack: Which is the Best Choice for Building a Business Website?</h4>
                             <p className="mt-3 text-sm mb-4 line-clamp-2">Both have their own unique strengths and weaknesses, and the right choice for your business
                                 will depend on your specific needs and goals.
                             </p>
-                            <a href="/blog/WordPress-vs-Jamstack-for-business-website" className="text-sm font-semibold text-blue-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></a>
+                            <Link href="/blog/WordPress-vs-Jamstack-for-business-website" className="text-sm font-semibold text-blue-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                     </div>
                     <div className="bg-white rounded-xl shadow-lg flex flex-col md:flex-row items-stretch mt-8">
-                        <a href="/blog/build-successful-lead-generation-strategy" className="inline-block shrink-0 w-full md:w-60 h-52 rounded-t-xl md:rounded-l-xl md:rounded-tr-none"></a>
+                        <Link href="/blog/build-successful-lead-generation-strategy" className="inline-block shrink-0 w-full md:w-60 h-52 rounded-t-xl md:rounded-l-xl md:rounded-tr-none"></Link>
                         <div className="p-6">
                             <h4 className="font-semibold leading-normal mb-3">How to create a successful lead generation strategy in 2021</h4>
                             <p className="mt-3 text-sm mb-4 line-clamp-2">People these days are surrounded by marketing messages and ads. They don’t have so
                                 much...
                             </p>
-                            <a href="/blog/build-successful-lead-generation-strategy" className="text-sm font-semibold text-blue-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></a>
+                            <Link href="/blog/build-successful-lead-generation-strategy" className="text-sm font-semibold text-blue-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                     </div>
                     <h6 className="font-semibold text-lg mt-10">Downloadable Resources:</h6>
@@ -70,12 +72,12 @@ const Faq = () => {
                         <div className="bg-slate-900/95 text-slate-400 p-8 rounded-lg shadow-lg bg-triangles bg-cover bg-center bg-blend-multiply">
                             <h5 className="text-white font-semibold">Is your website Smart?</h5>
                             <p className="text-sm mt-3 mb-6">We have prepared a checklists of 12 basic points that make website smart.</p>
-                            <a href="/resources/download-smart-website-checklist" className="text-sm font-semibold inline-block bg-slate-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></a>
+                            <Link href="/resources/download-smart-website-checklist" className="text-sm font-semibold inline-block bg-slate-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                         <div className="bg-slate-900/95 text-slate-400 p-8 rounded-lg shadow-lg bg-triangles bg-cover bg-center bg-blend-multiply">
                             <h5 className="text-white font-semibold">Is your website optimized?</h5>
                             <p className="text-sm mt-3 mb-6">We have prepared a checklists of 12 basic points that make optimize your website.</p>
-                            <a href="/resources/download-optimized-website-checklist" className="text-sm font-semibold inline-block bg-slate-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></a>
+                            <Link href="/resources/download-optimized-website-checklist" className="text-sm font-semibold inline-block bg-slate-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                     </div>
                 </div>
