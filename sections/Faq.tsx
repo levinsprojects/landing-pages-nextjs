@@ -1,6 +1,10 @@
 import Link from "next/link";
+import { useState } from "react";
+import TagsHorizontalScrollAnimation from "../components/TagsHorizontalScrollAnimation";
+import data from "../data/faq.json";
 
 const Faq = () => {
+    const [selectedQues,setSelectedQues] = useState(0);
     return (
         <section className="bg-gradient-to-b from-slate-100/80 to-slate-100 py-16 md:py-24 pt-8 md:pt-8">
             <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -12,35 +16,22 @@ const Faq = () => {
                     </p>
                     <div className="mt-12">
                         <dl className="leading-relaxed text-sm">
-                            <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer">Why should I consider Salt for my next software project?
-                                <span className="transition-transform duration-300 transform rotate-180">⌃</span>
-                            </dt>
-                            <dd className="mt-3">Because we have 30+ technology talent that can assist you with application development at any
-                                stage of the project. We have worked our partnerships of 2 months to 5 years to make companies
-                                competitive. Our about us page will show you who we are and what we believe in.
-                            </dd>
-                            <dd className="mt-3">Do check our <Link href="https://clutch.co/profile/salt-technologies?utm_source=salttechno.com&amp;utm_medium=referral&amp;utm_campaign=faqs" target="_blank" rel="noreferrer" className="text-blue-600 underline">clutch profile &amp; reviews</Link> from our existing customers. Most of the feedback on our web development processes comes from
-                                telephonic conversations executed by independent personnel from Clutch.
-                            </dd>
-                            <dd className="mt-3">Then, you could <Link href="/contact-us" className="text-blue-600 underline">contact us</Link> &amp; schedule
-                                a free call about your requirements to see if we have a partnership in near future.
-                            </dd>
-                            <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer mt-8">What's your experience in working on digital transformation projects?
-                                <span className="transition-transform duration-300 transform rotate-90">⌃</span>
-                            </dt>
-                            <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer mt-8">Can I rely on your development team that will deliver custom web applications within my
-                                timelines?
-                                <span className="transition-transform duration-300 transform rotate-90">⌃</span>
-                            </dt>
-                            <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer mt-8">Do you offer custom application development for my industry?
-                                <span className="transition-transform duration-300 transform rotate-90">⌃</span>
-                            </dt>
-                            <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer mt-8">What about the support?
-                                <span className="transition-transform duration-300 transform rotate-90">⌃</span>
-                            </dt>
-                            <dt className="text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer mt-8">How does your pricing work?
-                                <span className="transition-transform duration-300 transform rotate-90">⌃</span>
-                            </dt>
+                            {
+                                data.faqs.map((item,ind)=>{
+                                    const isSelected = ind === selectedQues;
+                                    return <>
+                                        <dt key={ind} onClick={() => { setSelectedQues(ind) }} className={`text-slate-900 font-semibold text-left text-base flex justify-between w-full items-center cursor-pointer ${ind !== 0 &&"mt-8"}`}>
+                                            {item.question}
+                                            <span className={`transition-transform duration-300 transform ${isSelected ? "rotate-180" :"rotate-90"}`}>⌃</span>
+                                        </dt>
+                                        {
+                                            isSelected && item.answers.map((ans,i)=>{
+                                                return <dd key={i} className="mt-3" dangerouslySetInnerHTML={{ __html: ans }}></dd>
+                                            })
+                                        }
+                                    </>
+                                })
+                            }
                         </dl>
                     </div>
                 </div>
@@ -82,17 +73,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
-            <div className="pt-16">
-                <div className="max-w-2xl mx-auto overflow-hidden py-6 relative">
-                    <div className="max-w-none">
-                        <div className="flex space-x-4 st-loop-tags"><span className="st-tag">Javascript</span> <span className="st-tag">HTML</span> <span className="st-tag">CSS</span> <span className="st-tag">PHP</span> <span className="st-tag">Python</span> <span className="st-tag">Node.js</span> <span className="st-tag">.NET</span> <span className="st-tag">C#</span> <span className="st-tag">MySQL</span> <span className="st-tag">Javascript</span> <span className="st-tag">HTML</span> <span className="st-tag">CSS</span></div>
-                        <div className="mt-6 flex space-x-4 st-loop-tags-reverse" ><span className="st-tag">StrategyConsulting</span> <span className="st-tag">DigitalMarketing</span> <span className="st-tag">SoftwareTesting</span> <span className="st-tag">Applications</span> <span className="st-tag">Portals</span> <span className="st-tag">DataAnalytics</span> <span className="st-tag">DevOps</span> <span className="st-tag">Websites</span> <span className="st-tag">UI/UX</span> <span className="st-tag">Software</span></div>
-                        <div className="mt-6 flex space-x-4 st-loop-tags" ><span className="st-tag">CRM</span> <span className="st-tag">ERP</span> <span className="st-tag">Ecommerce</span> <span className="st-tag">MVP</span> <span className="st-tag">Transformation</span> <span className="st-tag">PowerBI</span> <span className="st-tag">MachineLearning</span> <span className="st-tag">ArtificialIntelligence</span></div>
-                        <div className="mt-6 flex space-x-4 st-loop-tags-reverse"><span className="st-tag">WordPress</span> <span className="st-tag">Next.js</span> <span className="st-tag">Express.js</span> <span className="st-tag">React</span> <span className="st-tag">Angular</span> <span className="st-tag">Gatsby.js</span> <span className="st-tag">AWS</span> <span className="st-tag">Firebase</span> <span className="st-tag">GoogleCloud</span></div>
-                    </div>
-                    <div className="st-fade-over"></div>
-                </div>
-            </div>
+            <TagsHorizontalScrollAnimation></TagsHorizontalScrollAnimation>
         </section>
     );
 };
