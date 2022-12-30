@@ -1,0 +1,20 @@
+{
+    "items" : [
+        {
+            "name" : "Facebook",
+            "link" : "https://www.facebook.com/dummy_url_demo_site"
+        },
+        {
+            "name": "YouTube",
+            "link": "https://www.youtube.com/dummy_url_demo_site"
+        },
+        {
+            "name" : "Twitter",
+            "link" : "https://twitter.com/dummy_url_demo_site"
+        },
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/company/dummy_url_demo_site"
+        }
+    ]
+}
