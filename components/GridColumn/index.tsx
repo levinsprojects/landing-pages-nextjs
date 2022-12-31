@@ -23,7 +23,7 @@ const Card = ({ heading , content }: CardProps) => {
     return <div>
         <h2 className="font-semibold">
             {
-                heading?.url ? <Link href={heading.url} className="hover:text-blue-600">{heading.label}</Link> : heading.url
+                heading?.url ? <Link href={heading.url} className="hover:text-blue-600">{heading.label}</Link> : heading.label
             }
         </h2>
         {

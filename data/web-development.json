@@ -3,5 +3,239 @@
         "name": "Web Development Agency",
         "heading" : "Everything for Your Online Presence.",
         "desc" : "We turn your business idea into a website or web application that not only looks good, but is also intuitive and easy to use."
-    }
+    },
+    "sections":[
+        {
+            "sectionAddress":{
+                "heading":"Website Design & Development", 
+                "content":"We create modern, sustainable websites that are designed to help you reach your goals."
+            },
+            "needUpperDevider":true,
+            "gridCount":3,
+            "cards":[
+                {
+                    "heading": {
+                        "label":"Lightning Fast Page Speed"
+                    },
+                    "content":"We develop websites that load quickly to provide a better experience for your customers. Website speed is critical for search engine ranking & conversion rate as-well."
+                },
+                {
+                    "heading": {
+                        "label": "High Level of Security"
+                    },
+                    "content": "Developing a website with us will keep your information safe & secure, making you more confident in marketing your product or service."
+                },
+                {
+                    "heading": {
+                        "label": "Search Engine Friendly"
+                    },
+                    "content": "Our website developers will provide you with a website that is search engine friendly, resulting in higher rankings on Google and other search engines."
+                },
+                {
+                    "heading": {
+                        "label": "Tailored UX Strategy"
+                    },
+                    "content": "Every business is different and has different needs. We build tailored UX strategy for your website to achieve your business goals."
+                },
+                {
+                    "heading": {
+                        "label": "Fully Responsive Web-Design"
+                    },
+                    "content": "With our website design & development service, your website will be optimized to provide an optimal viewing experience on the widest range of devices possible."
+                },
+                {
+                    "heading": {
+                        "label": "User Behavior Analysis"
+                    },
+                    "content": "Our analysis of user behavior allows you to improve conversion rates & the overall effectiveness of your marketing campaigns."
+                },
+                {
+                    "heading": {
+                        "label": "Easy-to-use CMS"
+                    },
+                    "content": "Everyone who's ever struggled to update their website knows how time-consuming it can be. That's why we use CMS like WordPress, where you can update content easily & quickly."
+                },
+                {
+                    "heading": {
+                        "label": "Engaging CTAs"
+                    },
+                    "content": "If a website visitor can't find what they need, or you don't have the right call-to-action, you're missing out on potential customers. We can help with that."
+                },
+                {
+                    "heading": {
+                        "label": "Custom Content Strategy"
+                    },
+                    "content": "We take a look at your goals and objectives to determine the best course of action. Then, we develop a content strategy that is tailored to your needs."
+                },
+                {
+                    "heading": {
+                        "label": "Regular Backups"
+                    },
+                    "content": "When you hire us for website design & development, you get more than just a site. You get peace of mind. With our regular backups, you'll never have to worry about losing your data."
+                },
+                {
+                    "heading": {
+                        "label": "Contact Forms that work"
+                    },
+                    "content": "Your contact form deserves to work as smart as you do. Over the last decade we have been helping clients generate new business from contact forms on their website."
+                }
+            ],
+            "cardAction":{
+                "label":"Contact Us Now",
+                "url":"/contact-us"
+            }
+        },
+        {
+            "sectionAddress": {
+                "heading": "Web Application Development",
+                "content": "Hire a team to develop your web application & grow your business with our expert developers."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Extreme Scalability"
+                    },
+                    "content": "We will work with you to ensure your web app has high scalability, one of the most demanding & expensive qualities, that prevents your app from crashing under heavy traffic."
+                },
+                {
+                    "heading": {
+                        "label": "High Level of Security"
+                    },
+                    "content": "We always make sure that our web apps are highly secure. We use the latest security tech & follow best practices to ensure that our apps are safe from potential threats."
+                },
+                {
+                    "heading": {
+                        "label": "User-Friendly Forms"
+                    },
+                    "content": "Web apps usually have multiple forms that need to be filled by users. We ensure that the forms are easy to understand & use so that users can quickly and easily fill them out."
+                },
+                {
+                    "heading": {
+                        "label": "Mobile Friendly Interface"
+                    },
+                    "content": "We have a team of expert developers who can create web applications that are responsive and look great on all devices, from phones to tablets to desktop computers."
+                },
+                {
+                    "heading": {
+                        "label": "Social Media Login"
+                    },
+                    "content": "This allows users to login with their social media account or create a new account using their social media credentials. This makes it easier for users to access your application."
+                },
+                {
+                    "heading": {
+                        "label": "Analytics & Reports"
+                    },
+                    "content": "This lets our clients track how users interact with their site or application in real time. This data can then be used to improve the web-app & user experience."
+                },
+                {
+                    "heading": {
+                        "label": "Real-time Push Notifications"
+                    },
+                    "content": "With our push notifications, ensure that your users are always up-to-date with the latest information, whether it's a new message or a breaking news story."
+                },
+                {
+                    "heading": {
+                        "label": "Modular & Loosely Coupled"
+                    },
+                    "content": "We create independent modules that can be combined to create a larger application. This allows for easy maintenance and a high degree of flexibility, speed & security."
+                }
+            ],
+            "cardAction": {
+                "label": "Contact Us Now",
+                "url": "/contact-us"
+            }
+        },
+        {
+            "sectionAddress": {
+                "heading": "Jamstack Development",
+                "content": "Our team of experienced developers is proficient in using the latest tools and techniques to build high-quality Jamstack applications."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Improved Performance and Speed"
+                    },
+                    "content": "Jamstack applications are built using static files, which means they can be served quickly and efficiently without the need for complex server-side rendering."
+                },
+                {
+                    "heading": {
+                        "label": "Enhanced Security"
+                    },
+                    "content": "Jamstack app uses serverless functions, which means they are less susceptible to common security vulnerabilities such as SQL injection and cross-site scripting attacks."
+                },
+                {
+                    "heading": {
+                        "label": "Increased Scalability"
+                    },
+                    "content": "Jamstack applications are designed to be scalable, which means they can handle large amounts of traffic and data without slowing down or crashing."
+                }
+            ],
+            "moreDetail":"Overall, our Jamstack development services can help your business build high-quality, fast, secure web applications tailored to your specific needs and goals. Whether you want to create a new website, upgrade an existing one, or develop a custom web application, our team is here to help. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help your business succeed with Jamstack."
+        },
+        {
+            "sectionAddress": {
+                "heading": "E-commerce Development",
+                "content": "Our experienced developers are skilled in using the latest technologies and platforms to create customized e-commerce solutions tailored to our client's unique needs and requirements."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Increased Sales and Revenue"
+                    },
+                    "content": "With a well-designed and user-friendly e-commerce website, you can reach a wider audience and make it easier for customers to find and purchase your products. This can drive more traffic to your site, increase conversion rates, and boost your sales and revenue."
+                },
+                {
+                    "heading": {
+                        "label": "Enhanced Customer Experience"
+                    },
+                    "content": "Our e-commerce development services focus on creating intuitive, easy-to-use websites that provide customers with a seamless and enjoyable shopping experience. This can help improve customer satisfaction and loyalty and encourage repeat business."
+                },
+                {
+                    "heading": {
+                        "label": "Improved Efficiency and Productivity"
+                    },
+                    "content": "Using our e-commerce development services, you can streamline and automate many time-consuming tasks associated with managing an online store. This can free up your time and resources, allowing you to focus on other essential aspects of your business."
+                }
+            ],
+            "moreDetail": "Our e-commerce development services can help your business build a successful and profitable online store. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help your business succeed in the digital marketplace."
+        },
+        {
+            "sectionAddress": {
+                "heading": "Website Support & Maintenance",
+                "content": [
+                    "Our company offers comprehensive website support and maintenance services to help businesses of all sizes keep their websites running smoothly and efficiently.",
+                    "Our team of experienced developers and support specialists is available to provide assistance with a wide range of website-related tasks, from troubleshooting technical issues to updating content and features."
+                ]
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Improved Uptime and Reliability"
+                    },
+                    "content": "With regular maintenance and support, you can help ensure that your website is always available and functioning properly. This can prevent downtime and minimize disruptions to your business operations."
+                },
+                {
+                    "heading": {
+                        "label": "Enhanced Security"
+                    },
+                    "content": "As part of our support and maintenance services, we provide regular security updates and monitor your website for potential threats. This can help protect your website and your customers' data from cyber-attacks and other security risks."
+                },
+                {
+                    "heading": {
+                        "label": "Faster Problem Resolution"
+                    },
+                    "content": "If an issue does arise with your website, our team is available to provide prompt and effective resolution. We have the expertise and tools to diagnose and fix problems quickly, so you can get your website back up and running as soon as possible."
+                }
+            ],
+            "moreDetail": "Overall, our website support and maintenance services can help your business keep its website running smoothly and securely. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help you maintain and improve your website."
+        }
+    ]
 }
