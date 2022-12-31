@@ -3,5 +3,220 @@
         "name": "Custom Software Development",
         "heading" : "We Make Your Business More Productive.",
         "desc" : "We specialize in providing top-quality software development services to help businesses of all sizes drive innovation and achieve their goals."
+    },
+    "sections": [
+        {
+            "sectionAddress": {
+                "heading": "Features of Our Custom Software Development",
+                "content": "Our team of experienced and skilled developers has a proven track record of delivering customized software solutions that meet the unique needs of our clients."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Comprehensive Consultation & Analysis"
+                    },
+                    "content": "We work closely with our clients to understand their business goals, challenges, and requirements and provide expert advice and recommendations on the best approach for developing a custom software solution."
+                },
+                {
+                    "heading": {
+                        "label": "User-Centric Design"
+                    },
+                    "content": "Our custom software solutions are designed with the end user in mind, ensuring that they are intuitive, easy-to-use, and provide a seamless user experience."
+                },
+                {
+                    "heading": {
+                        "label": "High Flexibility"
+                    },
+                    "content": "Our custom software solutions are designed to be flexible and adaptable to changing business needs. This means that they can easily be modified and updated as your business grows and evolves."
+                },
+                {
+                    "heading": {
+                        "label": "Increased Scalability"
+                    },
+                    "content": "Our custom software solutions are designed to be scalable, allowing them to easily handle increased workloads and expand as your business grows."
+                },
+                {
+                    "heading": {
+                        "label": "Cost-Efficiency"
+                    },
+                    "content": "Our tailored software solutions can help businesses save money in the long run by reducing reliance on third-party software and providing more efficient and effective ways of working."
+                },
+                {
+                    "heading": {
+                        "label": "Security & Reliability"
+                    },
+                    "content": "We prioritize security and reliability in all of our custom software development projects, using robust security protocols and industry-standard best practices to protect your data and ensure the smooth operation of your software."
+                },
+                {
+                    "heading": {
+                        "label": "Tailored Solutions"
+                    },
+                    "content": "We design and develop custom software solutions from scratch to meet the specific needs and requirements of your business. This allows us to create solutions that are tailored to your unique needs and goals."
+                },
+                {
+                    "heading": {
+                        "label": "Ongoing Support & Maintenance"
+                    },
+                    "content": "We provide ongoing support and maintenance for our custom software solutions, so you can continue to get the most out of your investment."
+                },
+                {
+                    "heading": {
+                        "label": "Latest & Proven Technologies"
+                    },
+                    "content": "We use stable, proven and latest cutting-edge technologies and methodologies to create efficient, scalable, and secure software solutions for businesses of all sizes."
+                }
+            ],
+            "moreDetail": "With our custom software development services, you can trust that you will receive a high-quality, reliable, and user-friendly solution that is tailored to your unique business needs. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us</a> today to learn more and get started on your custom software project."
+        },
+        {
+            "sectionAddress": {
+                "heading": "Benefits of Custom Software Development",
+                "content": "With our custom software development services, you can expect a solution that is specifically designed to help your business thrive and succeed in today's competitive market."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Improved Efficiency & Productivity"
+                    },
+                    "content": "Our custom software solutions are designed to help streamline your business processes, automate repetitive tasks, and reduce manual errors so that you can work more efficiently and effectively."
+                },
+                {
+                    "heading": {
+                        "label": "Enhanced Customer/User Experience"
+                    },
+                    "content": "Our user-centric design approach ensures that your custom software applications provide a seamless and enjoyable experience for your customers & users, improving their satisfaction and loyalty."
+                },
+                {
+                    "heading": {
+                        "label": "Stay Ahead Of The Competition"
+                    },
+                    "content": "With a custom software solution that is fast, secure & tailored to your unique business needs, you can gain a competitive advantage over your rivals and stand out in the marketplace."
+                },
+                {
+                    "heading": {
+                        "label": "Reduced Costs & Risks"
+                    },
+                    "content": "By investing in a custom software solution, you can reduce the costs and risks associated with using off-the-shelf software that may not meet your business needs or require extensive customization."
+                },
+                {
+                    "heading": {
+                        "label": "Future-Proof Your Business"
+                    },
+                    "content": "By investing in custom software, you can ensure that your business is equipped with the tools and technology it needs to thrive in the long term."
+                },
+                {
+                    "heading": {
+                        "label": "Foster Innovation & Growth"
+                    },
+                    "content": "Our custom software solutions are built to be user-friendly and easy-to-use, which can encourage your team to adopt new technology and explore new ways of working."
+                }
+            ],
+            "moreDetail":"By investing in custom software development, your business can unlock new opportunities for growth and success. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us</a> today to learn more about how we can help you develop a custom software solution that meets your unique needs and requirements."
+        },
+        {
+            "sectionAddress": {
+                "heading": "Our Process for Software Development",
+                "content": "We follow an <b>agile approach</b> to custom software development. This means that we use an iterative, flexible, and collaborative process to deliver custom software solutions tailored to our clients' unique needs and requirements."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "1. Define The Project Scope"
+                    },
+                    "content": "In the first step of the agile process, we work with our clients to define the scope of the custom software project, including the goals, objectives, and high-level requirements. This helps us to create a shared understanding of what the custom software will do and how it will benefit the client's business."
+                },
+                {
+                    "heading": {
+                        "label": "2. Break The Project Into Smaller Tasks"
+                    },
+                    "content": "Once the project scope is defined, we break the project down into smaller, manageable tasks that can be completed in short, iterative cycles. This allows us to focus on delivering working software quickly and to make adjustments as needed based on feedback and input from the client."
+                },
+                {
+                    "heading": {
+                        "label": "3. Prioritize The Tasks"
+                    },
+                    "content": "In the next step, we prioritize the tasks based on their importance and value to the project and organize them into a backlog. This helps us to prioritize the work that needs to be done and to ensure that we are constantly working on the most important tasks first."
+                },
+                {
+                    "heading": {
+                        "label": "4. Create A Sprint Plan"
+                    },
+                    "content": "In the agile process, we work in short, iterative cycles called sprints, typically lasting two to four weeks. In this step, we create a plan for each sprint, including which tasks will be worked on, who will be working on them, and how much time and effort is expected for each task."
+                },
+                {
+                    "heading": {
+                        "label": "5. Complete The Tasks"
+                    },
+                    "content": "Then our team works on completing the tasks that have been prioritized & included in the sprint. This typically involves designing, coding, testing, & integrating the software, and making any necessary improvements based on feedback from the client or the quality assurance team."
+                },
+                {
+                    "heading": {
+                        "label": "6. Review And Adjust The Plan"
+                    },
+                    "content": "After each sprint, we review the progress that has been made, and adjust the plan for the next sprint as needed. This may involve adjusting the scope of the project, prioritizing new tasks, or making changes to the team's approach based on what has been learned."
+                }
+            ],
+            "moreDetail": "This approach allows us to be flexible, responsive, and collaborative and ensures that our clients are always involved and informed throughout the development process."
+        },
+        {
+            "sectionAddress": {
+                "heading": "Our Software Development Capabilities",
+                "content": "By offering different types of custom software development services, we are able to provide our clients with the solutions they need to achieve their business goals, and provide long-term value and return on investment."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Custom Software Development"
+                    },
+                    "content": "We can develop custom software applications that are tailored to the specific needs and goals of our clients. Our custom software solutions are user-friendly, reliable, and scalable and can be integrated with existing systems and technologies."
+                },
+                {
+                    "heading": {
+                        "label": "Web Portal Development"
+                    },
+                    "content": "We have expertise in developing custom web portals, which provide a central access point for users to access information, services, and resources. Our web portals are user-friendly, responsive, and scalable and can be tailored to the specific needs and goals of our clients."
+                },
+                {
+                    "heading": {
+                        "label": "Digital Transformation"
+                    },
+                    "content": "We can help our clients undergo digital transformation by developing custom software solutions that enable them to streamline their processes, improve efficiency and productivity, and provide better customer experiences."
+                },
+                {
+                    "heading": {
+                        "label": "Legacy System Modernization"
+                    },
+                    "content": "We can modernize legacy systems that replace or augment outdated or obsolete technologies. Our legacy system modernization services can help our clients reduce costs and IT overhead, and ensure that their systems are up-to-date and secure."
+                },
+                {
+                    "heading": {
+                        "label": "Team Augmentation"
+                    },
+                    "content": "We offer team augmentation services, where we can provide additional developers to supplement our clients' in-house development teams. This can be useful for clients who need additional expertise or resources for a specific project or who are looking to scale their development efforts without hiring additional permanent staff."
+                },
+                {
+                    "heading": {
+                        "label": "Software Support & Maintenance"
+                    },
+                    "content": "We ensure that our client's software continues to operate smoothly and provide value. Our support & maintenance services include bug fixes, updates, and technical assistance, and can help our clients get the most out of their software investment."
+                }
+            ]
+        }
+    ],
+    "footerCard": {
+        "heading": "Looking for a solution that is tailored to your unique goals?",
+        "desc": "Our team of experienced developers has expertise in a variety of programming languages, technologies, and platforms, and can deliver high-quality, reliable, and user-friendly software solutions.",
+        "action": {
+            "label": "Get a Proposal",
+            "url": "/contact-us"
+        }
     }
 }

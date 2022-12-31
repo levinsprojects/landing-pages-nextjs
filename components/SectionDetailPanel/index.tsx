@@ -7,17 +7,18 @@ interface SectionDetailPanelProps {
     action?: {
         label: string;
         url: string;
-    }
+    },
+    className?:string;
 };
 
-const SectionDetailPanel = ({ title, heading, content, action }: SectionDetailPanelProps) => {
+const SectionDetailPanel = ({ title, heading, content, action, className }: SectionDetailPanelProps) => {
     return <div className="max-w-2xl">
         {
             title && <h5 className="text-blue-600 font-semibold">{title}</h5>
         }
-        <h4 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight" dangerouslySetInnerHTML={{ __html: typeof (heading) == 'string' ? heading : heading?.join(`<br class="hidden md:block" />`) }}></h4>
+        <h4 className={`${className ? className : "mt-4 text-3xl md:text-4xl font-extrabold tracking-tight"}`} dangerouslySetInnerHTML={{ __html: typeof (heading) == 'string' ? heading : heading?.join(`<br class="hidden md:block" />`) }}></h4>
         {
-            typeof (content) == 'string' ? <p className="mt-4 mb-6">{content}</p> : content.map((item, ind) => {
+            typeof (content) == 'string' ? <p className={`mt-4 mb-6 ${className && "text-sm"}`} dangerouslySetInnerHTML={{ __html: content }}></p> : content.map((item, ind) => {
                 return <p key={ind} className={ind == 0 ? "mt-4" : "mt-3"} dangerouslySetInnerHTML={{ __html: item }}></p>
             })
         }
