@@ -1,0 +1,250 @@
+{
+    "hero": {
+        "name": "Technologies",
+        "heading": "Always On The Cutting Edge.",
+        "desc": "At Salt Technologies, we offer comprehensive software development services that take your project from initial idea to final deployment including testing & quality assurance."
+    },
+    "sections": [
+        {
+            "sectionAddress": {
+                "heading": "Programming Languages",
+                "content": "We have expertise in a variety of programming languages that allow us to build robust and scalable applications for our clients."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "PHP"
+                    },
+                    "content": [
+                        "A versatile language that is widely used for server-side scripting and web development.",
+                        "Our team has extensive experience in working with PHP, and we are well-versed in the latest features and best practices for building scalable and secure web applications."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Python"
+                    },
+                    "content": [
+                        "A powerful and easy-to-learn language that is often used for data analysis, machine learning, and scientific computing.",
+                        "Our team is proficient in Python, and we have experience in applying this language to a wide range of real-world projects."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "JavaScript"
+                    },
+                    "content": [
+                        "A versatile language that is commonly used for building interactive and dynamic web applications.",
+                        "Our team is skilled in both front-end and back-end JavaScript development, and we have experience in working with popular libraries and frameworks such as React and Angular."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Java"
+                    },
+                    "content": [
+                        "A popular and widely-used language that is often used for building enterprise-grade applications.",
+                        "Our team has extensive experience in working with Java, and we are well-versed in the latest features and best practices for building scalable and maintainable applications."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Node.js"
+                    },
+                    "content": [
+                        "A popular runtime environment for building server-side applications with JavaScript.",
+                        "Our team has experience in working with Node.js, and we are familiar with its unique features and capabilities, such as its non-blocking I/O and event-driven architecture."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": ".NET"
+                    },
+                    "content": [
+                        "A powerful framework for building a wide range of applications, including web, mobile, desktop, and cloud-based applications.",
+                        "Our team is skilled in working with .NET, and we have experience in building applications that leverage the framework's many features and capabilities."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Ruby"
+                    },
+                    "content": [
+                        "A dynamic and expressive language that is often used for web development and scripting.",
+                        "Our team is proficient in Ruby, and we have experience in applying this language to a wide range of real-world projects."
+                    ]
+                }
+            ],
+            "moreDetail":"In addition to these popular languages, our team is also proficient in a wide range of other languages, such as C#, Swift, Kotlin, and more. This enables us to provide flexible and tailored solutions for our clients, no matter what their specific needs may be."
+        },
+        {
+            "sectionAddress": {
+                "heading": "Platforms & Frameworks",
+                "content": "At Salt Technologies, we have a team of skilled software developers who are proficient in a wide range of platforms and frameworks."
+            },
+            "needUpperDevider": true,
+            "gridCount": 3,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "WordPress"
+                    },
+                    "content": [
+                        "A popular and powerful content management system for building websites and blogs.",
+                        "Our team has extensive experience in working with WordPress, and we are well-versed in its features and capabilities, such as its intuitive interface, customizable themes, and rich plugin ecosystem.",
+                        "We have used WordPress to build a wide range of websites and blogs, from simple and straightforward designs to complex and feature-rich systems."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Shopify"
+                    },
+                    "content": [
+                        "A popular and powerful e-commerce platform for building online stores.",
+                        "Our team has experience in working with Shopify, and we are familiar with its features and capabilities, such as its support for multiple payment gateways, customizable themes, and integration with popular shipping and fulfillment services.",
+                        "We have used Shopify to build a wide range of online stores, from simple and straightforward designs to complex and scalable e-commerce systems."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Express.js"
+                    },
+                    "content": [
+                        "A popular and minimalistic web application framework for the Node.js runtime environment.",
+                        "Our team is proficient in working with Express.js, and we have experience in building fast and scalable web applications that leverage the framework's features and capabilities.",
+                        "We have used Express.js to build a wide range of web applications, from simple and lightweight APIs to complex and feature-rich server-side applications."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Next.js"
+                    },
+                    "content": [
+                        "A popular and powerful framework for building server-rendered React applications.",
+                        "Our team is skilled in working with Next.js, and we have experience in building fast and scalable web applications that are optimized for performance and SEO.",
+                        "We have used Next.js to build a wide range of web applications, from simple and straightforward designs to complex and feature-rich single-page apps."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Laravel"
+                    },
+                    "content": "A popular and powerful PHP framework for building web applications. Our team has extensive experience in working with Laravel, and we are well-versed in its features and capabilities, such as its robust routing, MVC architecture, and built-in support for common tasks such as authentication and caching."
+                },
+                {
+                    "heading": {
+                        "label": "Django"
+                    },
+                    "content": "A powerful and full-featured Python web framework for building complex and scalable web applications. Our team is proficient in Django, and we have experience in applying this framework to a wide range of real-world projects."
+                },
+                {
+                    "heading": {
+                        "label": "React"
+                    },
+                    "content": "A popular JavaScript library for building user interfaces. Our team is skilled in working with React, and we have experience in building interactive and dynamic web applications that are fast, scalable, and maintainable."
+                },
+                {
+                    "heading": {
+                        "label": "Angular"
+                    },
+                    "content": "A popular JavaScript framework for building web applications. Our team has experience in working with Angular, and we are familiar with its features and capabilities, such as its powerful templating engine and support for dependency injection."
+                },
+                {
+                    "heading": {
+                        "label": ".NET Core"
+                    },
+                    "content": "A modern and cross-platform implementation of the .NET framework for building web, cloud, and mobile applications. Our team is skilled in working with .NET Core, and we have experience in building applications that leverage its many features and capabilities."
+                },
+                {
+                    "heading": {
+                        "label": "Ruby on Rails"
+                    },
+                    "content": "A popular and full-featured web application framework for the Ruby language. Our team is proficient in Ruby on Rails, and we have experience in applying this framework to a wide range of real-world projects."
+                }
+            ]
+        },
+        {
+            "sectionAddress": {
+                "heading": "Trending Technologies",
+                "content": "At Salt Technologies, we are always keeping an eye on the latest trends and developments in the field of software development. This enables us to provide our clients with cutting-edge solutions that are built with the latest and most innovative technologies."
+            },
+            "needUpperDevider": true,
+            "gridCount": 2,
+            "cards": [
+                {
+                    "heading": {
+                        "label": "Artificial Intelligence (AI)"
+                    },
+                    "content": [
+                        "A rapidly-growing field of computer science that focuses on the development of intelligent machines and systems that can learn, adapt, and make decisions based on data and information.",
+                        "Our team is skilled in working with AI technologies and frameworks, such as Keras and scikit-learn, and we have experience in applying this technology to a wide range of real-world projects, such as natural language processing, computer vision, and predictive analytics."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Machine Learning (ML)"
+                    },
+                    "content": [
+                        "A powerful and rapidly-growing field of artificial intelligence that enables computers to learn from data and make predictions and decisions without being explicitly programmed.",
+                        "Our team is skilled in working with machine learning algorithms and frameworks, such as TensorFlow and PyTorch, and we have experience in applying this technology to a wide range of real-world projects, such as image recognition, natural language processing, and predictive analytics."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Blockchain"
+                    },
+                    "content": [
+                        "A distributed and secure ledger technology that enables the creation and management of decentralized, immutable, and transparent digital records.",
+                        "Our team has experience in working with blockchain platforms and frameworks, such as Ethereum and Hyperledger, and we are familiar with their unique features and capabilities, such as their support for smart contracts, decentralized applications, and decentralized finance."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Internet of Things (IoT)"
+                    },
+                    "content": [
+                        "A rapidly-growing network of connected devices and sensors that enables the exchange of data and the automation of tasks.",
+                        "Our team is proficient in working with IoT technologies and platforms, such as AWS IoT Core and Azure IoT Hub, and we have experience in building and deploying IoT solutions that are scalable, secure, and maintainable."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "DevOps"
+                    },
+                    "content": [
+                        "A popular and rapidly-growing approach to software development that focuses on collaboration, automation, and continuous delivery.",
+                        "Our team is proficient in working with DevOps tools and practices, such as Jenkins and Docker, and we have experience in implementing DevOps processes and pipelines that are efficient, scalable, and secure."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Jamstack"
+                    },
+                    "content": [
+                        "A modern and scalable approach to web development that focuses on building static sites and applications that are fast, secure, and maintainable.",
+                        "Our team is skilled in working with Jamstack technologies and frameworks, such as Gatsby and Netlify, and we have experience in building and deploying Jamstack sites and applications that are optimized for performance and SEO."
+                    ]
+                },
+                {
+                    "heading": {
+                        "label": "Headless CMS"
+                    },
+                    "content": [
+                        "A modern and flexible approach to content management that enables the separation of the front-end and back-end of a website or application, allowing for greater flexibility and scalability.",
+                        "Our team is experienced in working with headless CMS platforms, such as Contentful and Strapi, and we have used this technology to build a wide range of websites and applications that are highly customizable and maintainable."
+                    ]
+                }
+            ]
+        }
+    ],
+    "footerCard": {
+        "heading": "Schedule a free consultation with one of our experts.",
+        "desc": "Whether you need a new website or application built from scratch, or you want to modernize and optimize your existing systems, we have the skills, experience, and expertise to deliver the solutions you need.",
+        "action": {
+            "label": "Get a Proposal",
+            "url": "/contact-us"
+        }
+    }
+}
