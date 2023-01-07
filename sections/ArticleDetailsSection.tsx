@@ -20,7 +20,7 @@ const ArticleDetailsSection = ({ data }:{data: {articleName:string, headings:{he
                                 <span className="opacity-75 ml-2">→</span></Link>
                         </div>
                     </div>
-                    <div className="max-w-4xl col-span-4 prose prose-slate prose-h3:text-2xl prose-h3:font-bold" dangerouslySetInnerHTML={{__html:article}}></div>
+                    <div className="max-w-4xl col-span-4 prose prose-slate prose-h3:text-2xl prose-h3:font-bold prose-h4:text-2xl prose-h4:font-bold" dangerouslySetInnerHTML={{__html:article}}></div>
                 </div>
             </div>
         </section>

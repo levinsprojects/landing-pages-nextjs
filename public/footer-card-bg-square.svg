@@ -1,0 +1,14 @@
+<svg aria-hidden="true">
+    <defs>
+        <pattern id=":R5ahd6:" width="72" height="56" patternUnits="userSpaceOnUse" x="50%" y="-6">
+            <path d="M.5 56V.5H72" fill="none"></path>
+        </pattern>
+    </defs>
+    <rect width="100%" height="100%" stroke-width="0" fill="url(#:R5ahd6:)"></rect>
+    <svg x="50%" y="-6" class="overflow-visible">
+        <rect stroke-width="0" width="73" height="57" x="288" y="112"></rect>
+        <rect stroke-width="0" width="73" height="57" x="-144" y="112"></rect>
+        <rect stroke-width="0" width="73" height="57" x="72" y="168"></rect>
+        <rect stroke-width="0" width="73" height="57" x="-288" y="224"></rect>
+    </svg>
+</svg>
