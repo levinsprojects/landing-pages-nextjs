@@ -46,7 +46,6 @@ export const getStaticProps: GetStaticProps<{ data: Blog }> = async (
             'utf8'
         );
         const { data: frontmatter, content } = matter(fileName);
-        console.log("====>matter(fileName)", matter(fileName));
         const objectData = {
             ...frontmatter as BlogMeta,
             content
@@ -69,9 +68,7 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
         category,
         content,
         bannerImage,
-     } = data;
-
-    console.log("====>data", data);
+    } = data;
 
     return (
         <section className="py-20">
