@@ -4,20 +4,20 @@ import industries from "../public/industries.webp";
 
 const Industries = () => {
     return (
-        <section className="bg-slate-900 overflow-y-hidden">
+        <section className="bg-secondary-700 overflow-y-hidden">
             <div className="relative">
                 <Image alt="Industries for whom we design websites" title="Industries for whom we design websites" className="absolute inset-0 mix-blend-overlay object-cover w-full" loading="lazy" decoding="async" width="1600" height="1087" src={industries} blurDataURL={`/_next/image?url=${industries}&w=16&q=1`} placeholder="blur" />
             </div>
-            <div className="py-16 md:py-24 bg-slate-900 text-slate-400 relative bg-opacity-60 backdrop-filter backdrop-blur-md">
+            <div className="py-16 md:py-24 bg-footer-bg-900 text-brand-100 relative bg-opacity-60 backdrop-filter backdrop-blur-md">
                 <div className="container">
                     <div className="max-w-2xl">
-                        <h6 className="text-blue-500 font-semibold">Industries</h6>
+                        <h6 className="text-brand-600 font-semibold">Industries</h6>
                         <h4 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight text-white">From Information Technology <br className="hidden md:block" />to Education.</h4>
                         <p className="mt-4 mb-6">Software development is complex, especially when you're trying to match a customized
                             solution to your industry. Fortunately, we've developed custom solutions for a variety
                             of industries - such as Information Technology, Finance, Education, Healthcare, etc.
                         </p>
-                        <Link href="/contact-us" className="font-semibold text-blue-500 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
+                        <Link href="/contact-us" className="font-semibold text-brand-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
                     </div>
                     <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                         <div>

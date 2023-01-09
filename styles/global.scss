@@ -626,7 +626,7 @@ p.text-sm {
 }
 
 .cta-bg {
-    background-image: linear-gradient(180deg, #f1f5f9 50%, #0f172a 50%)
+    background-image: linear-gradient(180deg, #FFEAF2 50%, #0f172a 50%)
 }
 
 .cta-bg-white {
@@ -658,7 +658,7 @@ p.text-sm {
 
 .st-fade-over {
     pointer-events: none;
-    background: linear-gradient(90deg, #f1f5f9, transparent 30%, transparent 70%, #f1f5f9);
+    background: linear-gradient(90deg, #FFEAF2, transparent 30%, transparent 70%, #FFEAF2);
     position: absolute;
     inset: 0
 }
@@ -704,20 +704,6 @@ p.text-sm {
 
     to {
         transform: translate(-50%)
-    }
-}
-
-@media (min-width: 640px) {
-    .sm\:hidden {
-        display: none
-    }
-
-    .sm\:h-\[2\.25rem\] {
-        height: 2.25rem
-    }
-
-    .sm\:grid-cols-2 {
-        grid-template-columns: repeat(2, minmax(0, 1fr))
     }
 }
 

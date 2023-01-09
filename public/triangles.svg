@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2093.579" height="704.716" viewBox="0 0 2093.579 704.716">
   <defs>
     <linearGradient id="linear-gradient" x1="0.072" y1="0.695" x2="0.478" y2="0.242" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1d4ed8"/>
-      <stop offset="1" stop-color="#3b82f6"/>
+      <stop offset="0" stop-color="#fa659f"/>
+      <stop offset="1" stop-color="#fb93bc"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="0.156" y1="0.799" x2="0.754" y2="0.249" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#60a5fa"/>
-      <stop offset="1" stop-color="#38bdf8"/>
+      <stop offset="0" stop-color="#fa659f"/>
+      <stop offset="1" stop-color="#fb93bc"/>
     </linearGradient>
   </defs>
   <g id="default.top.color" transform="translate(143.5 321.501)">
     <g id="Group_1" data-name="Group 1">
       <path id="Path_1" data-name="Path 1" d="M391.268-120.853,49.465-695.822,839.921-275.886Z" transform="translate(-143 495.675)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
-      <path id="Path_2" data-name="Path 2" d="M221.789,362.307-143-235.545,712.815,196.4Z" fill="none" stroke="#2563eb" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
-      <path id="Path_3" data-name="Path 3" d="M1934.579,108.215l-419.837,257.5-33.163-515Z" fill="#22d3ee" fill-rule="evenodd" opacity="0.4"/>
-      <path id="Path_4" data-name="Path 4" d="M1949.579,124.715l-419.837,258-33.163-516Z" fill="none" stroke="#0891b2" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
-      <path id="Path_5" data-name="Path 5" d="M635.028,173.709,622.1-310.353,1077-85.358Z" fill="#22d3ee" fill-rule="evenodd" opacity="0.4"/>
-      <path id="Path_6" data-name="Path 6" d="M613.357,163.8,600.447-321,1055.988-95.7Z" fill="none" stroke="#0891b2" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
+      <path id="Path_2" data-name="Path 2" d="M221.789,362.307-143-235.545,712.815,196.4Z" fill="none" stroke="#fb93bc" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
+      <path id="Path_3" data-name="Path 3" d="M1934.579,108.215l-419.837,257.5-33.163-515Z" fill="#fb93bc" fill-rule="evenodd" opacity="0.4"/>
+      <path id="Path_4" data-name="Path 4" d="M1949.579,124.715l-419.837,258-33.163-516Z" fill="none" stroke="#fa659f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
+      <path id="Path_5" data-name="Path 5" d="M635.028,173.709,622.1-310.353,1077-85.358Z" fill="#fb93bc" fill-rule="evenodd" opacity="0.4"/>
+      <path id="Path_6" data-name="Path 6" d="M613.357,163.8,600.447-321,1055.988-95.7Z" fill="none" stroke="#fa659f" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
       <path id="Path_7" data-name="Path 7" d="M834.6-429.337l837.645-216.222-308.7,569.392Z" transform="translate(-143 400.726)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
-      <path id="Path_8" data-name="Path 8" d="M721.574-36.6l837.743-215.776-308.7,569.393Z" fill="none" stroke="#2563eb" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
+      <path id="Path_8" data-name="Path 8" d="M721.574-36.6l837.743-215.776-308.7,569.393Z" fill="none" stroke="#fb93bc" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fill-rule="evenodd" opacity="0.398"/>
     </g>
   </g>
 </svg>

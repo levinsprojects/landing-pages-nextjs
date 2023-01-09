@@ -6,10 +6,10 @@ import data from "../data/faq.json";
 const Faq = () => {
     const [selectedQues,setSelectedQues] = useState(0);
     return (
-        <section className="bg-gradient-to-b from-slate-100/80 to-slate-100 py-16 md:py-24 pt-8 md:pt-8">
+        <section className="bg-gradient-to-b from-brand-50/80 to-brand-50 py-16 md:py-24 pt-8 md:pt-8">
             <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <div>
-                    <h3 className="text-blue-600 font-semibold">Software Development Company</h3>
+                    <h3 className="text-brand-600 font-semibold">Software Development Company</h3>
                     <h6 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight">Frequently Asked Questions</h6>
                     <p className="mt-4 mb-6">We create custom software solutions for your business, analyze data and design and develop
                         your website.
@@ -45,7 +45,7 @@ const Faq = () => {
                             <p className="mt-3 text-sm mb-4 line-clamp-2">Both have their own unique strengths and weaknesses, and the right choice for your business
                                 will depend on your specific needs and goals.
                             </p>
-                            <Link href="/blog/WordPress-vs-Jamstack-for-business-website" className="text-sm font-semibold text-blue-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></Link>
+                            <Link href="/blog/WordPress-vs-Jamstack-for-business-website" className="text-sm font-semibold text-brand-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                     </div>
                     <div className="bg-white rounded-xl shadow-lg flex flex-col md:flex-row items-stretch mt-8">
@@ -55,20 +55,20 @@ const Faq = () => {
                             <p className="mt-3 text-sm mb-4 line-clamp-2">People these days are surrounded by marketing messages and ads. They don’t have so
                                 much...
                             </p>
-                            <Link href="/blog/build-successful-lead-generation-strategy" className="text-sm font-semibold text-blue-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></Link>
+                            <Link href="/blog/build-successful-lead-generation-strategy" className="text-sm font-semibold text-brand-600 hover:text-blue-800">Read Post <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                     </div>
                     <h6 className="font-semibold text-lg mt-10">Downloadable Resources:</h6>
                     <div className="mt-4 grid md:grid-cols-2 gap-6">
-                        <div className="bg-slate-900/95 text-slate-400 p-8 rounded-lg shadow-lg bg-triangles bg-cover bg-center bg-blend-multiply">
+                        <div className="bg-secondary-600/95 text-slate-400 p-8 rounded-lg shadow-lg bg-triangles bg-cover bg-center bg-blend-multiply">
                             <h5 className="text-white font-semibold">Is your website Smart?</h5>
-                            <p className="text-sm mt-3 mb-6">We have prepared a checklists of 12 basic points that make website smart.</p>
-                            <Link href="/resources/download-smart-website-checklist" className="text-sm font-semibold inline-block bg-slate-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></Link>
+                            <p className="text-white text-sm mt-3 mb-6">We have prepared a checklists of 12 basic points that make website smart.</p>
+                            <Link href="/resources/download-smart-website-checklist" className="text-sm font-semibold inline-block bg-card-btn-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></Link>
                         </div>
-                        <div className="bg-slate-900/95 text-slate-400 p-8 rounded-lg shadow-lg bg-triangles bg-cover bg-center bg-blend-multiply">
+                        <div className="bg-secondary-600/95 text-slate-400 p-8 rounded-lg shadow-lg bg-triangles bg-cover bg-center bg-blend-multiply">
                             <h5 className="text-white font-semibold">Is your website optimized?</h5>
-                            <p className="text-sm mt-3 mb-6">We have prepared a checklists of 12 basic points that make optimize your website.</p>
-                            <Link href="/resources/download-optimized-website-checklist" className="text-sm font-semibold inline-block bg-slate-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></Link>
+                            <p className="text-white text-sm mt-3 mb-6">We have prepared a checklists of 12 basic points that make optimize your website.</p>
+                            <Link href="/resources/download-optimized-website-checklist" className="text-sm font-semibold inline-block bg-card-btn-200 text-slate-800 py-2 px-4 rounded-lg shadow-lg hover:bg-white">Download Now <span className="opacity-90 ml-2">→</span></Link>
                         </div>
                     </div>
                 </div>

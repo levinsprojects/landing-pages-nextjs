@@ -10,11 +10,11 @@ const CaseStudies = () => {
                         provides an overview of the project, the challenges we faced, and the solutions we
                         delivered. Our case studies show that we are a reliable &amp; experienced <strong className="font-normal">software development company</strong> that can provide custom software solutions that meet your specific needs.
                     </p>
-                    <Link href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-800">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
+                    <Link href="/contact-us" className="font-semibold text-accent-600 hover:text-accent-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
                 </div>
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
-                    <div className="bg-triangles rounded-xl bg-center bg-cover">
-                        <div className="p-8 md:p-12 flex flex-col bg-blue-50 h-full rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-2xl">
+                    <div className="rounded-xl">
+                        <div className="p-8 md:p-12 flex flex-col bg-gradient-to-r from-brand-50 to-brand-100 h-full rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-2xl">
                             <h5 className="font-bold text-lg">Restructured the company's positioning by overhauling UI and UX</h5>
                             <div className="mt-5 text-sm">
                                 <p>we worked with a company that was struggling to attract and retain customers due to a
@@ -36,11 +36,11 @@ const CaseStudies = () => {
                                 <div><span className="block text-2xl font-extrabold text-slate-900">60+</span> <span>Quality Leads /month</span></div>
                                 <div><span className="block text-2xl font-extrabold text-slate-900">500%</span> <span>Improved Pagespeed</span></div>
                             </div>
-                            <Link href="/case-studies" className="font-semibold text-sm text-blue-600 hover:text-blue-800 mt-auto">Read Other Case Studies <span className="opacity-90 ml-1">→</span></Link>
+                            <Link href="/case-studies" className="font-semibold text-sm text-accent-600 hover:text-accent-700 mt-auto">Read Other Case Studies <span className="opacity-90 ml-1">→</span></Link>
                         </div>
                     </div>
-                    <div className="bg-triangles rounded-xl bg-center bg-cover">
-                        <div className="p-8 md:p-12 flex flex-col bg-blue-50 h-full rounded-xl bg-opacity-90 backdrop-filter backdrop-blur-2xl">
+                    <div className="rounded-xl">
+                        <div className="p-8 md:p-12 flex flex-col bg-gradient-to-r from-brand-50 to-brand-100 h-full rounded-xl">
                             <h5 className="font-bold text-lg">Website Redesign for Tech Consulting &amp; Solutions Firm</h5>
                             <div className="mt-5 text-sm">
                                 <p>When a tech consulting and solutions firm approached us for help with their website,
@@ -65,7 +65,7 @@ const CaseStudies = () => {
                                     <div><span className="block text-2xl font-extrabold text-slate-900">500+</span> <span>Pages Redesigned</span></div>
                                     <div><span className="block text-2xl font-extrabold text-slate-900">2X</span> <span>Faster Website Speed</span></div>
                                 </div>
-                                <Link href="/case-studies" className="font-semibold text-sm text-blue-600 hover:text-blue-800">Read Other Case Studies <span className="opacity-90 ml-1">→</span></Link>
+                                <Link href="/case-studies" className="font-semibold text-sm text-accent-600 hover:text-accent-700">Read Other Case Studies <span className="opacity-90 ml-1">→</span></Link>
                             </div>
                         </div>
                     </div>

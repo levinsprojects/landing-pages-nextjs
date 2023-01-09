@@ -9,14 +9,14 @@ const ArticleDetailsSection = ({ data }:{data: {articleName:string, headings:{he
                     <div className="hidden lg:block col-span-2">
                         <div className="sticky top-32">
                             <h4 className="mb-8 text-lg">{articleName}</h4>
-                            <ul className="list-disc list-inside marker:text-blue-600 font-medium">
+                            <ul className="list-disc list-inside marker:text-brand-600 font-medium">
                                 {
                                     headings.map((item,ind)=>{
-                                        return <li key={ind} className="mb-6"><Link href={item.hash} className="hover:text-blue-600" scroll={false}>{item.heading}</Link></li>
+                                        return <li key={ind} className="mb-6"><Link href={item.hash} className="hover:text-brand-600" scroll={false}>{item.heading}</Link></li>
                                     })
                                 }
                             </ul>
-                            <Link href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-blue-50 text-sm font-semibold text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white mt-10">Contact Us Now
+                            <Link href="/contact-us" className="inline-flex justify-center py-3 px-6 bg-brand-50 text-sm font-semibold text-brand-600 rounded-lg hover:bg-accent-600 hover:text-white mt-10">Contact Us Now
                                 <span className="opacity-75 ml-2">→</span></Link>
                         </div>
                     </div>

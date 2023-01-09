@@ -174,7 +174,7 @@
                     "content": "Jamstack applications are designed to be scalable, which means they can handle large amounts of traffic and data without slowing down or crashing."
                 }
             ],
-            "moreDetail":"Overall, our Jamstack development services can help your business build high-quality, fast, secure web applications tailored to your specific needs and goals. Whether you want to create a new website, upgrade an existing one, or develop a custom web application, our team is here to help. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help your business succeed with Jamstack."
+            "moreDetail":"Overall, our Jamstack development services can help your business build high-quality, fast, secure web applications tailored to your specific needs and goals. Whether you want to create a new website, upgrade an existing one, or develop a custom web application, our team is here to help. <a href='/contact-us' class='font-medium text-brand-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help your business succeed with Jamstack."
         },
         {
             "sectionAddress": {
@@ -203,7 +203,7 @@
                     "content": "Using our e-commerce development services, you can streamline and automate many time-consuming tasks associated with managing an online store. This can free up your time and resources, allowing you to focus on other essential aspects of your business."
                 }
             ],
-            "moreDetail": "Our e-commerce development services can help your business build a successful and profitable online store. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help your business succeed in the digital marketplace."
+            "moreDetail": "Our e-commerce development services can help your business build a successful and profitable online store. <a href='/contact-us' class='font-medium text-brand-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help your business succeed in the digital marketplace."
         },
         {
             "sectionAddress": {
@@ -235,7 +235,7 @@
                     "content": "If an issue does arise with your website, our team is available to provide prompt and effective resolution. We have the expertise and tools to diagnose and fix problems quickly, so you can get your website back up and running as soon as possible."
                 }
             ],
-            "moreDetail": "Overall, our website support and maintenance services can help your business keep its website running smoothly and securely. <a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help you maintain and improve your website."
+            "moreDetail": "Overall, our website support and maintenance services can help your business keep its website running smoothly and securely. <a href='/contact-us' class='font-medium text-brand-600 underline hover:text-blue-700'>Contact us today</a> to learn more about how we can help you maintain and improve your website."
         }
     ]
 }

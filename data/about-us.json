@@ -1,0 +1,24 @@
+{
+    "hero": {
+        "name": "Software Development Company",
+        "heading": "About Us",
+        "desc": "We are 'Salt Technologies,' a software development company from Pune, India. We were born in the year 2012 and are continually growing since then."
+    },
+    "stickyTabs":[
+        {
+            "label":"Client Testimonials",
+            "url":"/about-us/testimonials"
+        },
+        {
+            "label": "Awards & Recognitions",
+            "url": "/about-us/awards-recognitions"
+        },{
+            "label": "Our Story",
+            "url": "/about-us/our-story"
+        },{
+            "label": "Social Responsibilities",
+            "url": "/about-us/social-responsibilities"
+        }
+    ],
+    "mainContent":"Welcome to Salt Technologies! We are an Indian software development company that specializes in Web Development, UI/UX Design, Custom Software Development, DevOps, Digital Transformations and Software Testing.\nWe specialize in creating custom software solutions for businesses of all sizes. With a team of experienced and skilled developers, we are able to tackle any project and deliver high-quality results.\nOur approach to software development is focused on collaboration and clear communication. We work closely with our clients to understand their unique needs and requirements, and use agile methodologies to ensure that our solutions are delivered on time and on budget.\nWe offer a full range of software development services, including web and mobile application development, custom software development, and support and maintenance. No matter what your project entails, our team has the expertise and knowledge to bring it to life.\nIn addition to our development services, we also provide consulting and guidance to help businesses make informed decisions about their technology needs. We can help you assess your current systems, identify areas for improvement, and create a roadmap for success.\nAt our software development company, we are passionate about creating innovative and effective solutions that drive results for our clients. If you have a project in mind, we would love to hear from you. [Contact us](/contact-us) today to discuss your needs and learn more about how we can help."
+}

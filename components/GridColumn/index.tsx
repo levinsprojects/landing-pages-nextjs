@@ -7,7 +7,7 @@ interface ActionCardProps{
 
 const ActionCard = ({ label, url }: ActionCardProps) => {
     return <div className="flex items-end justify-end">
-        <Link href={url} className="inline-flex justify-center py-3 px-6 bg-blue-600 text-sm font-semibold text-white rounded-lg hover:bg-blue-700">{label} <span className="opacity-75 ml-2">→</span></Link>
+        <Link href={url} className="inline-flex justify-center py-3 px-6 bg-accent-600 text-sm font-semibold text-white rounded-lg hover:bg-accent-700">{label} <span className="opacity-75 ml-2">→</span></Link>
     </div>;
 };
 
@@ -23,7 +23,7 @@ const Card = ({ heading , content }: CardProps) => {
     return <div>
         <h2 className="font-semibold">
             {
-                heading?.url ? <Link href={heading.url} className="hover:text-blue-600">{heading.label}</Link> : heading.label
+                heading?.url ? <Link href={heading.url} className="hover:text-brand-600">{heading.label}</Link> : heading.label
             }
         </h2>
         {

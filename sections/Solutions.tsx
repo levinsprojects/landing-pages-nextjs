@@ -4,13 +4,13 @@ const Solutions = () => {
     return (<section className="bg-white py-16 md:py-24 border-b border-slate-100">
         <div className="container">
             <div className="max-w-2xl">
-                <h5 className="text-blue-600 font-semibold">Solutions</h5>
+                <h5 className="text-brand-600 font-semibold">Solutions</h5>
                 <h4 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight">From Business Websites <br className="hidden md:block"/>to ERP software.</h4>
                 <p className="mt-4 mb-6">We provide a wide range of <strong className="font-normal">software solutions</strong> for businesses,
                     from small websites to large ERP systems. We have a team of experienced developers who can
                     create customised solutions to meet your specific needs.
                 </p>
-                <Link href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
+                <Link href="/contact-us" className="font-semibold text-brand-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
             </div>
             <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
                 <div>
