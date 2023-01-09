@@ -1,0 +1,59 @@
+{
+    "hero": {
+        "name": "Software Development Services",
+        "heading": "Social Responsibilities",
+        "desc": "We believe we must make our world a great place. We align it with our employees, communities, and customers to make that happen."
+    },
+    "stickyTabs": [
+        {
+            "label": "Client Testimonials",
+            "url": "/about-us/testimonials",
+            "disabled": true
+        },
+        {
+            "label": "Awards & Recognitions",
+            "url": "/about-us/awards-recognitions",
+            "disabled": true
+        },
+        {
+            "label": "Our Story",
+            "url": "/about-us/our-story",
+            "disabled": false
+        },
+        {
+            "label": "Social Responsibilities",
+            "url": "/about-us/social-responsibilities",
+            "disabled": false
+        }
+    ],
+    "patriotismSection":{
+        "heading":"We love India",
+        "subHeading":"We support our Farmers & Soldiers.",
+        "desc":[
+            "At Salt Technologies, we believe in supporting the hardworking individuals who help keep our country running. That is why we are proud to support our farmers and soldiers.",
+            "As an Indian web design & development company, we offer more than 50% discounts to all of our farmers & soldiers in all of our services.",
+            "We offer military personnel and veterans, including family members, a special discount on every project regardless of the project price, as thanks for their sacrifice. We also offer discounts to non-profit organizations.",
+            "It is always an honor to work with our farmers, soldiers, their families, and non-profit organizations. This is the least we can do as gratitude."
+        ]
+    },
+    "cards":[
+        {
+            "heading":"We love to Donate ❤️",
+            "desc":"We love to donate some part of our profit for various causes regularly, but we don't like to show it off.",
+            "source":"donation.mp4",
+            "isImage":false
+        },
+        {
+            "heading": "We love Nature 🌴 🍁 🌿 🌵 🍀 🍃",
+            "desc": "We try our bit to save the planet. Wherever possible, we try to reduce the carbon footprint & save water.",
+            "source": "nature-love.mp4",
+            "isImage": false
+        },
+        {
+            "heading": "We love specially-abled children ❤️",
+            "desc": "We believe that every child is special and born with some unique ability. We try to motivate and encourage them whenever we meet.",
+            "source": "we-love.webp",
+            "isImage": true
+        }
+    ]
+}
