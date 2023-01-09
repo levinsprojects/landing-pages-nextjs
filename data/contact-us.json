@@ -1,0 +1,34 @@
+{
+    "heading":"Ready To Order Your Custom Software Development?",
+    "subHeading":[
+        "You Know What You Want.",
+        "We Make It Happen."
+    ],
+    "desc":[
+        "We offer custom software development that aligns with your specific business needs. Contact us for a consultation.",
+        "We've been developing software for over 10 years, and our work has always been lauded. We can help your business grow with our expertise in software development."
+    ],
+    "customerCompanies":[],
+    "companie":{
+        "address":{
+            "heading":"Office Address:",
+            "desc":"Office 1, companie building,\n\ncompanie building Road,\n\nIndia, 608001.",
+            "icon":"location"
+        },
+        "sales":{
+            "heading":"Sales Inquiry:",
+            "desc":"**Mobile:** +91 9876543210\n\n**Email:** sales@companie.com",
+            "icon":"user-card"
+        },
+        "support":{
+            "heading":"Support Inquiry:",
+            "desc":"**Mobile:** +91 9876543210\n\n**Email:** support@companie.com",
+            "icon":"help"
+        },
+        "career":{
+            "heading":"Career Inquiry:",
+            "desc": "**Mobile:** +91 81490 76070\n\n**Email:** hr@companie.com",
+            "icon":"check"
+        }
+    }
+}

@@ -97,8 +97,9 @@ const Page = ({ content, companyData }: InferGetStaticPropsType<typeof getStatic
                 <div className="container">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                         {
-                            data.cards.map((card)=>{
+                            data.cards.map((card,ind)=>{
                                 return <Card
+                                    key={ind}
                                     heading={card.heading}
                                     isImage={card.isImage}
                                     desc={card.desc}

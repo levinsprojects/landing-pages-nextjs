@@ -127,7 +127,7 @@ const Page: NextPage = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mt-12 font-serif italic font-medium">
                             {
                                 data.quotesSection.cards.map((card, ind) => {
-                                    return <div className="bg-white rounded-xl shadow-xl shadow-slate-200 p-8 lg:p-10">
+                                    return <div key={ind} className="bg-white rounded-xl shadow-xl shadow-slate-200 p-8 lg:p-10">
                                         <figure>
                                             <blockquote className="text-lg mb-2">{card.quote}</blockquote>
                                             <figcaption className="text-slate-400 text-sm">– {card.quote}</figcaption>
