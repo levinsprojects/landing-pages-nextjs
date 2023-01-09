@@ -15,7 +15,7 @@ Try searching WordPress on Google. The First 2 results that you will see (exclud
 
 There is a clear answer to our question in the above screenshot, but it isn’t easy to understand. Still, confused? Let me explain the difference in detail with this article.
 
-We, at Salt Technologies, use WordPress.org when we build business websites on WordPress. I’ll explain the reason at the end of this post. So, stay connected till the end.
+We, at Atonis Technologies, use WordPress.org when we build business websites on WordPress. I’ll explain the reason at the end of this post. So, stay connected till the end.
 
 Let’s try to understand the difference between both based on the following points:
 
@@ -153,7 +153,7 @@ What you use for building your website depends on what you want to build. One is
 
 If you want easy setup, hosting & management, WordPress.com is the right one. If you want flexibility, WordPress.org is right.
 
-As mentioned above, at Salt Technologies, we use WordPress.org software for building almost all business websites.
+As mentioned above, at Atonis Technologies, we use WordPress.org software for building almost all business websites.
 
 The main reasons why we use WordPress.org software are flexibility and the GNU General Public License.
 

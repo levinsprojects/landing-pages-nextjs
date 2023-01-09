@@ -2,13 +2,13 @@
     "hero":{
         "name": "UI/UX Design Services",
         "heading" : "We Create Beautiful User Experiences.",
-        "desc" : "Get a polished UI/UX design for your site, app or mobile app with Salt. Our team will work with you to bring your vision to life, while meeting industry best practices."
+        "desc" : "Get a polished UI/UX design for your site, app or mobile app with Atonis. Our team will work with you to bring your vision to life, while meeting industry best practices."
     },
     "sections": [
         {
             "sectionAddress": {
                 "heading": "Features of Our UI/UX Design",
-                "content": "At Salt, we believe that great design is more than just making things look good – it's about creating engaging and intuitive user experiences that meet the needs of your target audience."
+                "content": "At Atonis, we believe that great design is more than just making things look good – it's about creating engaging and intuitive user experiences that meet the needs of your target audience."
             },
             "needUpperDevider": true,
             "gridCount": 3,

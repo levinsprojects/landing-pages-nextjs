@@ -26,9 +26,9 @@ const Header: React.FC<HeaderProps> = () => {
             <div className="container">
                 <div className="flex justify-between items-center relative md:space-x-10 py-4 md:py-6 text-sm font-semibold">
                     <div className="flex justify-start">
-                        <Link href="/" title="Demo site | Software Development Company" className="cursor-pointer">
-                            <span className="sr-only">Demo site - Software Development Company</span>
-                            <Image alt="Demo site - Software Development Company" title="Demo site - Software Development Company" className="h-7 w-auto sm:h-[2.5rem]" width="112.5" height="36" src={SiteLogo} blurDataURL={`/_next/image?url=${SiteLogo}&w=16&q=1`} placeholder="blur" />
+                        <Link href="/" title="Atonis site | Software Development Company" className="cursor-pointer">
+                            <span className="sr-only">Atonis site - Software Development Company</span>
+                            <Image alt="Atonis site - Software Development Company" title="Atonis site - Software Development Company" className="h-7 w-auto sm:h-[2.5rem]" width="112.5" height="36" src={SiteLogo} blurDataURL={`/_next/image?url=${SiteLogo}&w=16&q=1`} placeholder="blur" />
                         </Link>
                     </div>
                     <nav className="hidden md:flex space-x-10 items-center">
@@ -306,7 +306,7 @@ const Header: React.FC<HeaderProps> = () => {
                                             </div>
                                             <div className="col-span-2">
                                                 <h5 className="font-medium text-base tracking-wide text-slate-800 inline-block mb-3">Looking for something else?</h5>
-                                                <p className="text-slate-500 font-normal">Demo site can help you with all of your software development needs. Don&#39;t miss out
+                                                <p className="text-slate-500 font-normal">Atonis site can help you with all of your software development needs. Don&#39;t miss out
                                                     on the opportunity to work with the best software development company in India.
                                                 </p>
                                                 <Link href="/contact-us" className="text-brand-600 font-semibold inline-block hover:text-slate-900 mt-3">

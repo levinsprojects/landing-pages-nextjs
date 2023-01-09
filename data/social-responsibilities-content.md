@@ -1,4 +1,4 @@
-At Salt Technologies, we believe that being a responsible and ethical business is just as important as creating innovative and high-quality software. As a software development company, we have a unique opportunity to use our skills and expertise to make a positive impact on society and the environment.
+At Atonis Technologies, we believe that being a responsible and ethical business is just as important as creating innovative and high-quality software. As a software development company, we have a unique opportunity to use our skills and expertise to make a positive impact on society and the environment.
 
 Here are some of the ways that we are fulfilling our social responsibilities:
 

@@ -2,7 +2,7 @@
     "hero": {
         "name": "Technologies",
         "heading": "Always On The Cutting Edge.",
-        "desc": "At Salt Technologies, we offer comprehensive software development services that take your project from initial idea to final deployment including testing & quality assurance."
+        "desc": "At Atonis Technologies, we offer comprehensive software development services that take your project from initial idea to final deployment including testing & quality assurance."
     },
     "sections": [
         {
@@ -82,7 +82,7 @@
         {
             "sectionAddress": {
                 "heading": "Platforms & Frameworks",
-                "content": "At Salt Technologies, we have a team of skilled software developers who are proficient in a wide range of platforms and frameworks."
+                "content": "At Atonis Technologies, we have a team of skilled software developers who are proficient in a wide range of platforms and frameworks."
             },
             "needUpperDevider": true,
             "gridCount": 3,
@@ -168,7 +168,7 @@
         {
             "sectionAddress": {
                 "heading": "Trending Technologies",
-                "content": "At Salt Technologies, we are always keeping an eye on the latest trends and developments in the field of software development. This enables us to provide our clients with cutting-edge solutions that are built with the latest and most innovative technologies."
+                "content": "At Atonis Technologies, we are always keeping an eye on the latest trends and developments in the field of software development. This enables us to provide our clients with cutting-edge solutions that are built with the latest and most innovative technologies."
             },
             "needUpperDevider": true,
             "gridCount": 2,

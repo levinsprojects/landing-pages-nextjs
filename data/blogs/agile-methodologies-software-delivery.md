@@ -47,7 +47,7 @@ This case study illustrates the benefits of using agile methodologies for comple
 
 If you’re considering using agile methodologies for your next software project, we hope this case study has given you some valuable insights. Agile approaches can be a powerful tool for delivering software efficiently and effectively, especially when coupled with continuous delivery practices.
 
-If you are considering building a software solution or a business website and are in need of professional assistance, ’ Salt Technologies’ offers a range of [web development services](/web-development).
+If you are considering building a software solution or a business website and are in need of professional assistance, ’ Atonis Technologies’ offers a range of [web development services](/web-development).
 
 Our team of experienced developers can help you choose the right platform for your business and build a website that meets your specific needs.
 
