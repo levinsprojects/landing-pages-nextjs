@@ -31,7 +31,7 @@ const Hero = () => {
                     <p className="mt-5">We understand that every business is unique and has its own specific needs. This is why
                         we offer custom software solutions that are tailor-made to fit your business perfectly.
                     </p>
-                    <div className="mt-8 flex gap-6"><Link href="/services" className="inline-flex justify-center py-3 px-6 bg-white text-sm font-semibold text-slate-600 border border-slate-200 rounded-lg hover:bg-brand-50">Explore Our Services
+                    <div className="mt-8 flex gap-6"><Link href="/services" className="inline-flex justify-center py-3 px-6 bg-white text-sm font-semibold text-slate-600 border border-brand-100 rounded-lg hover:bg-brand-50">Explore Our Services
                         <span className="opacity-75 ml-2">→</span></Link>
                     </div>
                 </div>

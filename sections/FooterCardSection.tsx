@@ -37,7 +37,7 @@ const FooterCardSection = ({ heading, desc, action, isWhiteBg, cardType ='triang
                     <div className={`${(cardType == 'triangles') ? "bg-triangles" :"relative"} rounded-xl bg-center`}>
                         <div className="px-10 md:px-24 py-16 bg-gradient-to-b from-secondary-700/60 to-secondary-700/95 rounded-xl">
                             <h5 className="text-white font-extrabold text-3xl tracking-tight">{heading}</h5>
-                            <p className="mt-4">{desc}</p>
+                            <p className="text-white mt-4">{desc}</p>
                             <Link href={action.url} className="mt-10 inline-flex bg-white px-3 py-3 rounded-xl text-slate-800 font-semibold text-sm shadow-lg shadow-secondary-600 items-center hover:bg-footer-bg-900 hover:text-white mix-blend-hard-light">
                                 <span className="inline-block px-3 mr-2">{action.label}</span>
                             </Link>
