@@ -11,9 +11,9 @@ const Footer = (props:{}) => {
                 <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 md:gap-16">
                     <div className="xl:col-span-7">
                         <div className="flex justify-start mb-4">
-                            <Link href="/" title="Demo site | Software Development Company" className="cursor-pointer">
-                                <span className="sr-only">Demo site - Software Development Company</span>
-                                <Image alt="Demo site - Software Development Company" title="Demo site - Software Development Company" className="h-7 w-auto sm:h-[2.5rem]" width="112.5" height="36" src={SiteLogo} blurDataURL={`/_next/image?url=${SiteLogo}&w=16&q=1`} placeholder="blur" />
+                            <Link href="/" title="Atonis site | Software Development Company" className="cursor-pointer">
+                                <span className="sr-only">Atonis site - Software Development Company</span>
+                                <Image alt="Atonis site - Software Development Company" title="Atonis site - Software Development Company" className="h-7 w-auto sm:h-[2.5rem]" width="112.5" height="36" src={SiteLogo} blurDataURL={`/_next/image?url=${SiteLogo}&w=16&q=1`} placeholder="blur" />
                             </Link>
                         </div>
                         <p dangerouslySetInnerHTML={{ __html: CompanyDetails.slogan }}></p>
@@ -109,7 +109,7 @@ const Footer = (props:{}) => {
             <div className="bg-footer-bg-900">
                 <div className="container py-12 pb-16 md:pb-12 text-slate-400 text-sm">
                     <div className="md:flex md:items-center md:justify-between md:gap-8 w-full">
-                        <div className="text-center md:text-left "><span>© 2023 Demo site, All Rights Reserved.</span> <br className="sm:hidden" /> <Link href="/privacy-policy" className="ml-8 hover:text-white">Privacy Policy</Link> <Link href="/website-copyright" className="ml-8 hover:text-white">Copyright</Link> <Link href="/sitemap" className="ml-8 hover:text-white">Sitemap</Link></div>
+                        <div className="text-center md:text-left "><span>© 2023 Atonis site, All Rights Reserved.</span> <br className="sm:hidden" /> <Link href="/privacy-policy" className="ml-8 hover:text-white">Privacy Policy</Link> <Link href="/website-copyright" className="ml-8 hover:text-white">Copyright</Link> <Link href="/sitemap" className="ml-8 hover:text-white">Sitemap</Link></div>
                         <div className="mt-4 md:mt-0">
                             <ul className="flex justify-between">
                                 {
