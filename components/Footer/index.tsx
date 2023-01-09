@@ -1,19 +1,19 @@
 import socialMedias from "../../data/social-networks.json";
 import Image from 'next/image';
-import SiteLogo from "../../public/SiteLogoLight.svg";
+import SiteLogo from "../../public/atonis-logo-dark.svg";
 import CompanyDetails from "../../data/company-details.json";
 import Link from "next/link";
 
 const Footer = (props:{}) => {
     return (
-        <footer className="bg-slate-900 relative">
+        <footer className="bg-footer-bg-900 relative">
             <div className="container py-16 text-slate-400">
                 <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 md:gap-16">
                     <div className="xl:col-span-7">
                         <div className="flex justify-start mb-4">
                             <Link href="/" title="Demo site | Software Development Company" className="cursor-pointer">
                                 <span className="sr-only">Demo site - Software Development Company</span>
-                                <Image alt="Demo site - Software Development Company" title="Demo site - Software Development Company" className="h-7 w-auto sm:h-[2.25rem]" width="112.5" height="36" src={SiteLogo} blurDataURL={`/_next/image?url=${SiteLogo}&w=16&q=1`} placeholder="blur" />
+                                <Image alt="Demo site - Software Development Company" title="Demo site - Software Development Company" className="h-7 w-auto sm:h-[2.5rem]" width="112.5" height="36" src={SiteLogo} blurDataURL={`/_next/image?url=${SiteLogo}&w=16&q=1`} placeholder="blur" />
                             </Link>
                         </div>
                         <p dangerouslySetInnerHTML={{ __html: CompanyDetails.slogan }}></p>
@@ -103,10 +103,10 @@ const Footer = (props:{}) => {
                     </p>
                 </div>
                 <div>
-                    <form action="/subscribe" method="POST" className="flex w-full items-stretch"><label htmlFor="subscriber_email" className="sr-only">Email Id</label> <input type="email" name="subscriber_email" id="subscriber_email" className="rounded-l-xl shadow-xl border-0 w-60 py-3 px-3 md:px-6 text-slate-800 placeholder:text-slate-400" placeholder="Enter your email" /> <button type="submit" className="bg-blue-600 text-white rounded-r-xl shadow-xl px-3 md:px-6 text-sm font-semibold tracking-wide hover:bg-blue-700 transition-colors duration-300">Subscribe</button></form>
+                    <form action="/subscribe" method="POST" className="flex w-full items-stretch"><label htmlFor="subscriber_email" className="sr-only">Email Id</label> <input type="email" name="subscriber_email" id="subscriber_email" className="rounded-l-xl shadow-xl border-0 w-60 py-3 px-3 md:px-6 text-slate-800 placeholder:text-slate-400" placeholder="Enter your email" /> <button type="submit" className="bg-accent-600 text-white rounded-r-xl shadow-xl px-3 md:px-6 text-sm font-semibold tracking-wide hover:bg-accent-700 transition-colors duration-300">Subscribe</button></form>
                 </div>
             </div>
-            <div className="bg-slate-900">
+            <div className="bg-footer-bg-900">
                 <div className="container py-12 pb-16 md:pb-12 text-slate-400 text-sm">
                     <div className="md:flex md:items-center md:justify-between md:gap-8 w-full">
                         <div className="text-center md:text-left "><span>© 2023 Demo site, All Rights Reserved.</span> <br className="sm:hidden" /> <Link href="/privacy-policy" className="ml-8 hover:text-white">Privacy Policy</Link> <Link href="/website-copyright" className="ml-8 hover:text-white">Copyright</Link> <Link href="/sitemap" className="ml-8 hover:text-white">Sitemap</Link></div>

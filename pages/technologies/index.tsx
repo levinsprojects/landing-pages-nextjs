@@ -14,7 +14,7 @@ const Page: NextPage = () => {
                     return <CardsColumnSection data={item} key={ind}></CardsColumnSection>
                 })
             }
-            <section className='bg-slate-100 pt-4 pb-16'>
+            <section className='bg-brand-50 pt-4 pb-16'>
                 <TagsHorizontalScrollAnimation></TagsHorizontalScrollAnimation>
             </section>
             <FooterCardSection heading={data.footerCard.heading} desc={data.footerCard.desc} action={data.footerCard.action} isWhiteBg={false} />

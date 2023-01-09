@@ -18,20 +18,20 @@ const BlogCard = ({ blog }: { blog :Blog}) => {
         <div>
             <Link
                 href={blogURL}
-                className="inline-block bg-slate-100 w-full"
+                className="inline-block bg-brand-50 w-full"
             >
                 <Image alt={blog.title} title={blog.title} className="object-cover w-full h-72" width="410" height="288" src={bannerImg} blurDataURL={`/_next/image?url=${bannerImg}&w=16&q=1`} placeholder="blur" />
             </Link>
             <h4 className="font-semibold text-base mt-4">
                 <Link
                     href={blogURL}
-                    className="hover:text-blue-600"
+                    className="hover:text-brand-600"
                 >{blog.title}</Link>
             </h4>
             <p className="mt-3 line-clamp-2">{shortDesc}</p>
             <Link
                 href={blogURL}
-                className="font-semibold text-blue-600 inline-block mt-4"
+                className="font-semibold text-brand-600 inline-block mt-4"
             >
                 Read Blog <span className="opacity-75 ml-2">→</span>
             </Link>

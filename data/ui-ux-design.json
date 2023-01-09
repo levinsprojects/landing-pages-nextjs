@@ -50,7 +50,7 @@
                     "content": "We offer flexible engagement models to suit the needs of your project and your budget. This can include hourly, project-based, or retainer-based pricing."
                 }
             ],
-            "moreDetail":"<a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us</a> today to learn more about the features of our UI/UX design services and how we can help you create user experiences that are intuitive, engaging, and effective."
+            "moreDetail":"<a href='/contact-us' class='font-medium text-brand-600 underline hover:text-blue-700'>Contact us</a> today to learn more about the features of our UI/UX design services and how we can help you create user experiences that are intuitive, engaging, and effective."
         },
         {
             "sectionAddress": {
@@ -141,7 +141,7 @@
                     "content": "Once the design is finalized, we work closely with your development team to ensure that the final product matches our designs. We also provide ongoing support and guidance to help your team implement the design successfully."
                 }
             ],
-            "moreDetail": "<a href='/contact-us' class='font-medium text-blue-600 underline hover:text-blue-700'>Contact us</a> today to learn more about our comprehensive UI/UX design process and how we can help you create user experiences that are intuitive, engaging, and effective."
+            "moreDetail": "<a href='/contact-us' class='font-medium text-brand-600 underline hover:text-blue-700'>Contact us</a> today to learn more about our comprehensive UI/UX design process and how we can help you create user experiences that are intuitive, engaging, and effective."
         },
         {
             "sectionAddress": {

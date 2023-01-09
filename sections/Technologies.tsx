@@ -22,13 +22,13 @@ const Technologies = () => {
         <section className="bg-white py-16 md:py-24 border-b border-slate-100">
             <div className="container">
                 <div className="max-w-2xl">
-                    <h5 className="text-blue-600 font-semibold">Technologies</h5>
+                    <h5 className="text-brand-600 font-semibold">Technologies</h5>
                     <h4 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight">From PHP to Node.js.</h4>
                     <p className="mt-4 mb-6">We work with all the latest technologies and deliver your project on time. We have skilled
                         developers who are well-versed in a wide range of platforms and frameworks, which makes them
                         the best choice to go with.
                     </p>
-                    <Link href="/contact-us" className="font-semibold text-blue-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
+                    <Link href="/contact-us" className="font-semibold text-brand-600 hover:text-blue-700">Start Discussion Now <span className="opacity-90 ml-1">→</span></Link>
                 </div>
                 <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 md:gap-y-12">
                     <div>
