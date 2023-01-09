@@ -39,7 +39,7 @@ const ContactForm = () => {
             <button type="submit" className="bg-accent-600 px-12 py-3 text-white rounded-lg shadow-xl hover:bg-accent-700 transition-colors duration-200 font-semibold w-full disabled:opacity-50 disabled:cursor-not-allowed antialiased">Submit</button>
         </div>
         <div className="md:col-span-2">
-            <p className="text-sm text-slate-400 antialiased">All projects are secured by NDA &amp; the Intellectual Property (IP) is your's.</p>
+            <p className="text-sm text-slate-400 antialiased">All projects are secured by NDA &amp; the Intellectual Property (IP) is your&apos;s.</p>
         </div>
     </form>
 };
