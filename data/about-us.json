@@ -7,18 +7,169 @@
     "stickyTabs":[
         {
             "label":"Client Testimonials",
-            "url":"/about-us/testimonials"
+            "url":"/about-us/testimonials",
+            "disabled":true
         },
         {
             "label": "Awards & Recognitions",
-            "url": "/about-us/awards-recognitions"
+            "url": "/about-us/awards-recognitions",
+            "disabled": true
         },{
             "label": "Our Story",
-            "url": "/about-us/our-story"
+            "url": "/about-us/our-story",
+            "disabled":false
         },{
             "label": "Social Responsibilities",
-            "url": "/about-us/social-responsibilities"
+            "url": "/about-us/social-responsibilities",
+            "disabled":false
         }
     ],
-    "mainContent":"Welcome to Salt Technologies! We are an Indian software development company that specializes in Web Development, UI/UX Design, Custom Software Development, DevOps, Digital Transformations and Software Testing.\nWe specialize in creating custom software solutions for businesses of all sizes. With a team of experienced and skilled developers, we are able to tackle any project and deliver high-quality results.\nOur approach to software development is focused on collaboration and clear communication. We work closely with our clients to understand their unique needs and requirements, and use agile methodologies to ensure that our solutions are delivered on time and on budget.\nWe offer a full range of software development services, including web and mobile application development, custom software development, and support and maintenance. No matter what your project entails, our team has the expertise and knowledge to bring it to life.\nIn addition to our development services, we also provide consulting and guidance to help businesses make informed decisions about their technology needs. We can help you assess your current systems, identify areas for improvement, and create a roadmap for success.\nAt our software development company, we are passionate about creating innovative and effective solutions that drive results for our clients. If you have a project in mind, we would love to hear from you. [Contact us](/contact-us) today to discuss your needs and learn more about how we can help."
+    "mainContent":"Welcome to Salt Technologies! We are an Indian software development company that specializes in Web Development, UI/UX Design, Custom Software Development, DevOps, Digital Transformations and Software Testing.\n\n We specialize in creating custom software solutions for businesses of all sizes. With a team of experienced and skilled developers, we are able to tackle any project and deliver high-quality results.\n\n Our approach to software development is focused on collaboration and clear communication. We work closely with our clients to understand their unique needs and requirements, and use agile methodologies to ensure that our solutions are delivered on time and on budget.\n\n We offer a full range of software development services, including web and mobile application development, custom software development, and support and maintenance. No matter what your project entails, our team has the expertise and knowledge to bring it to life.\n\n In addition to our development services, we also provide consulting and guidance to help businesses make informed decisions about their technology needs. We can help you assess your current systems, identify areas for improvement, and create a roadmap for success.\n\n At our software development company, we are passionate about creating innovative and effective solutions that drive results for our clients. If you have a project in mind, we would love to hear from you. [Contact us](/contact-us) today to discuss your needs and learn more about how we can help.",
+    "ourStorySection":{
+        "heading":["Small Yet Mighty.","And Growing."],
+        "desc":"We are a team of talented professionals having experience in building software, web applications, & business websites. We all have one thing in common, which is – the customer centric approach.",
+        "action":{
+            "label":"Read Our Story ",
+            "url":"/about-us/our-story"
+        },
+        "points":[
+            {
+                "heading":"10+ Years in the Business",
+                "desc":"of website design, software development and marketing solutions serving customers worldwide."
+            },
+            {
+                "heading": "82% Retainer Customers",
+                "desc": "trusting our abilities to build, maintain & scale-up their business websites."
+            },
+            {
+                "heading": "300+ Worldwide Customers",
+                "desc": "select us as part of their extended team to solve & improve their marketing website."
+            },
+            {
+                "heading": "500+ Projects Delivered",
+                "desc": "generating continuous growth to businesses with its clean and user-driven approach."
+            }
+        ]
+    },
+    "visionSection":[
+        {
+            "heading":"Our Vision",
+            "desc":"To be a trustworthy organization that is continually thinking about customer success by providing helpful solutions. We endeavor to do the same for our human resources."
+        },
+        {
+            "heading":"Our Mission",
+            "desc":[
+                "Develop smart software solutions for a variety of industries.",
+                "Adapt to the latest technology stack.",
+                "Build self-sustainable & adaptive teams to empower businesses."
+            ]
+        }
+    ],
+    "quotesSection":{
+        "heading":"We Believe",
+        "desc":"Like everyone, we have a profound impact on idols, quotes, and sayings. We believe and follow some of them regularly in our business & daily lives.",
+        "action":{
+            "label":"Start Discussion Now ",
+            "url":"/contact-us"
+        },
+        "cards":[
+            {
+                "quote":"The longer it takes to develop, the less likely it is to launch.",
+                "name":"Jason Fried, Basecamp"
+            },
+            {
+                "quote": "We have a strategic plan. It's called doing things.",
+                "name": "Herb Kelleher, Southwest Airline"
+            },
+            {
+                "quote": "There is only one boss. The Customer.",
+                "name": "Sam Walton, Walmart"
+            },
+            {
+                "quote": "Design is not just what it looks like & feels like. Design is how it works.",
+                "name": "Steve Jobs, Apple"
+            },
+            {
+                "quote": "A user interface is like a joke. If you have to explain it, it's not that good.",
+                "name": "Martin Leblanc"
+            },
+            {
+                "quote": "Make it work. Then make it better.",
+                "name": "Jason Fried, Basecamp"
+            }
+        ]
+    },
+    "digitalSolutionSection":{
+        "heading":"Creating Growth Solutions Digitally Since 2012",
+        "desc":"With latest technologies and set of experienced team, Salt is trusted by customers ranging from the big enterprises, to SMEs and technology startups.",
+        "cards":[
+            {
+                "heading":"Trusted Process",
+                "desc":"With our years of experience as a website development company, we have now set a refined agile process for software development that you can trust.",
+                "icon":"thumbs-up"
+            },
+            {
+                "heading": "Exceptional Service",
+                "desc": "We understand how important it is for our customers to have their requests fulfilled in a timely manner, and we are dedicated to providing the best possible service.",
+                "icon": "help"
+            },
+            {
+                "heading": "Experienced Team",
+                "desc": "With over 10 years of experience, we understand the nuances of software & web development. We have successfully delivered multiple types of projects.",
+                "icon": "team"
+            },
+            {
+                "heading": "Acknowledged Worldwide",
+                "desc": "We have been acknowledged worldwide for our design & development by leading companies like WordPress, Themeforest, Clutch, Awwwards, etc.",
+                "icon": "team"
+            }
+        ]
+    },
+    "principlesSection":{
+        "heading":"There are things that are more important than money.",
+        "desc":[
+            "We are passionate about what we do and care about the quality and outcome to achieve the best results. However, we do this for more than just money.",
+            "We speak upfront about things we don't do and only take work where we are good at. We love to suggest the right solution even if that does not generate any business for us.",
+            "We give more importance to the user experience, right messaging, and lead generation than the creativity in the website's looks."
+        ],
+        "points":[
+            {
+                "heading":"We practice what we preach.",
+                "desc":"We know our capabilities, and we don't promise that we can't deliver."
+            },
+            {
+                "heading": "Learn together, Grow together.",
+                "desc": "Sharing is caring. Whatever we learn, we share with our people & with our customers too."
+            },
+            {
+                "heading": "Learning to say \"No.\"",
+                "desc": "We let you know when we won't be the right choice for each other or if we won't be able to do justice to the project."
+            },
+            {
+                "heading": "Focus more on user experience than on looks.",
+                "desc": "With all the experience, we have learned the hard way that user experience is more important than the creative look."
+            },
+            {
+                "heading": "Respect yourself and others.",
+                "desc": "We value everyone regardless of their culture, age, gender, education, style, color, financial status, or else."
+            }
+        ]
+    },
+    "trustedCustomersSection":{
+        "heading":"Trusted by 100+ multinational companies.",
+        "desc":"We are delivering high-quality websites that are creating a positive impact on our customer's businesses. We have partnered with many customers across India, the US, and the rest of the world.",
+        "action":{
+            "label":"Our Client Testimonials",
+            "url":"/about-us/testimonials"
+        },
+        "companyLogos":[]
+    },
+    "footerCard": {
+        "heading": "Schedule a free consultation with one of our experts.",
+        "desc": "Start-ups, SME's & Enterprises are all in need of a reliable software development partner. We'll work with you to ensure you find the right solution for your business and deliver it on time.",
+        "action": {
+            "label": "Get a Proposal",
+            "url": "/contact-us"
+        }
+    }
 }

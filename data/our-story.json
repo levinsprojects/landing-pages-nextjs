@@ -1,0 +1,37 @@
+{
+    "hero": {
+        "name": "Atonis Technologies",
+        "heading": "Our Story",
+        "desc": "We started a software development agency with a single man. We are a team of 40+ now. If you have got a few minutes, please read about our journey."
+    },
+    "stickyTabs": [
+        {
+            "label": "Client Testimonials",
+            "url": "/about-us/testimonials",
+            "disabled": true
+        },
+        {
+            "label": "Awards & Recognitions",
+            "url": "/about-us/awards-recognitions",
+            "disabled": true
+        },
+        {
+            "label": "Our Story",
+            "url": "/about-us/our-story",
+            "disabled": false
+        },
+        {
+            "label": "Social Responsibilities",
+            "url": "/about-us/social-responsibilities",
+            "disabled": false
+        }
+    ],
+    "footerCard": {
+        "heading": "Schedule a free consultation with one of our experts.",
+        "desc": "Are you looking to improve your business with software solutions, but not sure where to start? We'll provide personalized recommendations and advice to help you find the right software for your business.",
+        "action": {
+            "label": "Get in Touch",
+            "url": "/contact-us"
+        }
+    }
+}
