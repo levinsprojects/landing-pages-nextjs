@@ -16,7 +16,7 @@ const CompanyTech = () => {
             <div className="bg-brand-50 relative bg-opacity-80 py-16 md:py-24 backdrop-filter backdrop-blur-3xl">
                 <div className="container grid grid-cols-1 md:grid-cols-2 gap-10">
                     <div className="">
-                        <h6 className="text-brand-600 font-semibold">Salt Technologies</h6>
+                        <h6 className="text-brand-600 font-semibold">Atonis Technologies</h6>
                         <h4 className="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight">Small Yet Mighty. <br className="hidden md:block" />And Growing.</h4>
                         <div className="mt-4 mb-6 leading-7">
                             <p>We are a custom software <strong className="font-normal">design &amp; development company</strong>
@@ -24,7 +24,7 @@ const CompanyTech = () => {
                                 developers, designers, and business analysts work to design and deploy custom software
                                 solutions for businesses across the globe.
                             </p>
-                            <p className="mt-4">Salt Technologies was founded in 2012 as a single person company with a vision to
+                            <p className="mt-4">Atonis Technologies was founded in 2012 as a single person company with a vision to
                                 build the best software solutions possible. Today, we are more than 30 engineers &amp;
                                 designers who are passionate about using technology to solve difficult business
                                 problems.

@@ -68,7 +68,7 @@ Answer to these questions may not be straightforward; however, here are some bas
 
 See if you can come up with these points, and you will get an idea of what actual messaging means.
 
-At Salt Technologies, we have experts who can write out [website content strategies](/services/strategy-consulting/website-content-strategy) to help form the right messaging.
+At Atonis Technologies, we have experts who can write out [website content strategies](/services/strategy-consulting/website-content-strategy) to help form the right messaging.
 
 Your website’s navigation is a challenge.
 

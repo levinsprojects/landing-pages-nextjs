@@ -110,7 +110,7 @@ It’s important to carefully consider your needs and goals before making a deci
 
 No matter which platform you choose, it’s important to work with a skilled and experienced web development team to ensure that your business website is professional, functional, and successful.
 
-If you are considering building a business website and are in need of professional assistance, ‘Salt Technologies’ offers a range of [web development services](/web-development).
+If you are considering building a business website and are in need of professional assistance, ‘Atonis Technologies’ offers a range of [web development services](/web-development).
 
 Our team of experienced developers can help you choose the right platform for your business and build a website that meets your specific needs.
 
